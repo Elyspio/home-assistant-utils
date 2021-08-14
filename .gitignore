@@ -1,0 +1,8 @@
+obj
+bin
+appsettings.secrets.json
+Properties
+.vs
+.env
+.idea
+.vscode

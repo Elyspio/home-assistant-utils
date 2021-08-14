@@ -1,0 +1,12 @@
+version: "3"
+services:
+  home-assistant-utils:
+    image: elyspio/home-assistant-utils
+    container_name: home-assistant-utils
+    restart: always
+    volumes:
+      - "../app/appsettings.secrets.json:/app/appsettings.secrets.json"
+    networks:
+      - home-assistant-utils
+networks:
+  home-assistant-utils:
