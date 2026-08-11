@@ -1,0 +1,4316 @@
+{
+  "domains": [
+    {
+      "domain": "light",
+      "entities": [
+        {
+          "id": "light.bathroom",
+          "friendlyName": "Bathroom",
+          "cSharpName": "Bathroom"
+        },
+        {
+          "id": "light.bedroom",
+          "friendlyName": "Bedroom",
+          "cSharpName": "Bedroom"
+        },
+        {
+          "id": "light.bedroom_2",
+          "friendlyName": "Bedroom 2",
+          "cSharpName": "Bedroom2"
+        },
+        {
+          "id": "light.cam_chamber_2_floodlight",
+          "friendlyName": "Cam - Chamber 2 Floodlight",
+          "cSharpName": "CamChamber2Floodlight"
+        },
+        {
+          "id": "light.cam_chamber_floodlight",
+          "friendlyName": "Cam - Chamber Floodlight",
+          "cSharpName": "CamChamberFloodlight"
+        },
+        {
+          "id": "light.cam_corridor_floodlight",
+          "friendlyName": "Cam - Corridor Floodlight",
+          "cSharpName": "CamCorridorFloodlight"
+        },
+        {
+          "id": "light.cam_entry_floodlight",
+          "friendlyName": "Cam - Entry Floodlight",
+          "cSharpName": "CamEntryFloodlight"
+        },
+        {
+          "id": "light.cam_kitchen_floodlight",
+          "friendlyName": "Cam - Kitchen Floodlight",
+          "cSharpName": "CamKitchenFloodlight"
+        },
+        {
+          "id": "light.cam_office_floodlight",
+          "friendlyName": "Cam - Office Floodlight",
+          "cSharpName": "CamOfficeFloodlight"
+        },
+        {
+          "id": "light.hue_color_lamp_1",
+          "friendlyName": "Office",
+          "cSharpName": "HueColorLamp1"
+        },
+        {
+          "id": "light.hue_color_lamp_1_2",
+          "friendlyName": "Kitchen",
+          "cSharpName": "HueColorLamp12"
+        },
+        {
+          "id": "light.hue_color_lamp_2",
+          "friendlyName": "Living Room",
+          "cSharpName": "HueColorLamp2"
+        },
+        {
+          "id": "light.hue_color_lamp_3",
+          "friendlyName": "Launch Room",
+          "cSharpName": "HueColorLamp3"
+        },
+        {
+          "id": "light.hue_color_lamp_4",
+          "friendlyName": "Corridor",
+          "cSharpName": "HueColorLamp4"
+        },
+        {
+          "id": "light.hue_color_lamp_5",
+          "friendlyName": "Laundry Room",
+          "cSharpName": "HueColorLamp5"
+        },
+        {
+          "id": "light.hue_color_lamp_6",
+          "friendlyName": "Hue color lamp 6",
+          "cSharpName": "HueColorLamp6"
+        },
+        {
+          "id": "light.hue_color_lamp_7",
+          "friendlyName": "Bedroom",
+          "cSharpName": "HueColorLamp7"
+        },
+        {
+          "id": "light.hue_color_lamp_8",
+          "friendlyName": "Entry",
+          "cSharpName": "HueColorLamp8"
+        },
+        {
+          "id": "light.hue_color_spot_1",
+          "friendlyName": "Hue color spot 1",
+          "cSharpName": "HueColorSpot1"
+        },
+        {
+          "id": "light.hue_color_spot_2",
+          "friendlyName": "Hue color spot 2",
+          "cSharpName": "HueColorSpot2"
+        },
+        {
+          "id": "light.hue_color_spot_3",
+          "friendlyName": "Hue color spot 3",
+          "cSharpName": "HueColorSpot3"
+        },
+        {
+          "id": "light.hue_color_spot_4",
+          "friendlyName": "Bathroom 4",
+          "cSharpName": "HueColorSpot4"
+        },
+        {
+          "id": "light.hue_color_spot_5",
+          "friendlyName": "Toilet",
+          "cSharpName": "HueColorSpot5"
+        },
+        {
+          "id": "light.kitchen",
+          "friendlyName": "Kitchen",
+          "cSharpName": "Kitchen"
+        },
+        {
+          "id": "light.laundry_room",
+          "friendlyName": "Laundry room",
+          "cSharpName": "LaundryRoom"
+        },
+        {
+          "id": "light.living_room",
+          "friendlyName": "Living room",
+          "cSharpName": "LivingRoom"
+        },
+        {
+          "id": "light.office",
+          "friendlyName": "Office",
+          "cSharpName": "Office"
+        },
+        {
+          "id": "light.other",
+          "friendlyName": "Other",
+          "cSharpName": "Other"
+        },
+        {
+          "id": "light.oven_light",
+          "friendlyName": "Oven Light",
+          "cSharpName": "OvenLight"
+        },
+        {
+          "id": "light.smart_switch_2309263415624251081348e1e9dc0074_dnd",
+          "friendlyName": "Office - Screen left Dnd",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Dnd"
+        },
+        {
+          "id": "light.smart_switch_2309264007244851081348e1e9dbf4df_dnd",
+          "friendlyName": "Office - Desk Dnd",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfDnd"
+        },
+        {
+          "id": "light.toilet",
+          "friendlyName": "Toilet",
+          "cSharpName": "Toilet"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "supported_color_modes",
+          "cSharpName": "SupportedColorModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_mode",
+          "cSharpName": "ColorMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "min_color_temp_kelvin",
+          "cSharpName": "MinColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_color_temp_kelvin",
+          "cSharpName": "MaxColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "min_mireds",
+          "cSharpName": "MinMireds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_mireds",
+          "cSharpName": "MaxMireds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "brightness",
+          "cSharpName": "Brightness",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_temp_kelvin",
+          "cSharpName": "ColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_temp",
+          "cSharpName": "ColorTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "hs_color",
+          "cSharpName": "HsColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "rgb_color",
+          "cSharpName": "RgbColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "xy_color",
+          "cSharpName": "XyColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "entity_id",
+          "cSharpName": "EntityId",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "effect_list",
+          "cSharpName": "EffectList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "color",
+          "cSharpName": "Color",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "effect",
+          "cSharpName": "Effect",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "dynamics",
+          "cSharpName": "Dynamics",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "is_hue_group",
+          "cSharpName": "IsHueGroup",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "hue_scenes",
+          "cSharpName": "HueScenes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "hue_type",
+          "cSharpName": "HueType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "lights",
+          "cSharpName": "Lights",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "media_player",
+      "entities": [
+        {
+          "id": "media_player.65_oled",
+          "friendlyName": "65\u0022 OLED",
+          "cSharpName": "_65Oled"
+        },
+        {
+          "id": "media_player.65_oled_2",
+          "friendlyName": "65\u0022 OLED",
+          "cSharpName": "_65Oled2"
+        },
+        {
+          "id": "media_player.g80sd9142",
+          "friendlyName": "32\u0022 Odyssey OLED G8",
+          "cSharpName": "G80sd9142"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "app_id",
+          "cSharpName": "AppId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "app_name",
+          "cSharpName": "AppName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture_local",
+          "cSharpName": "EntityPictureLocal",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "volume_level",
+          "cSharpName": "VolumeLevel",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "is_volume_muted",
+          "cSharpName": "IsVolumeMuted",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "media_content_id",
+          "cSharpName": "MediaContentId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_content_type",
+          "cSharpName": "MediaContentType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_duration",
+          "cSharpName": "MediaDuration",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "media_position",
+          "cSharpName": "MediaPosition",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "media_position_updated_at",
+          "cSharpName": "MediaPositionUpdatedAt",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_title",
+          "cSharpName": "MediaTitle",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_album_name",
+          "cSharpName": "MediaAlbumName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_image_url",
+          "cSharpName": "MediaImageUrl",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_artist",
+          "cSharpName": "MediaArtist",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sound_mode_list",
+          "cSharpName": "SoundModeList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "media_track",
+          "cSharpName": "MediaTrack",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "shuffle",
+          "cSharpName": "Shuffle",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "repeat",
+          "cSharpName": "Repeat",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "source_list",
+          "cSharpName": "SourceList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "adb_response",
+          "cSharpName": "AdbResponse",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "hdmi_input",
+          "cSharpName": "HdmiInput",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "sound_mode",
+          "cSharpName": "SoundMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sound_mode_raw",
+          "cSharpName": "SoundModeRaw",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "automation",
+      "entities": [
+        {
+          "id": "automation.light_motion_chamber",
+          "friendlyName": "Light - Motion - Chamber",
+          "cSharpName": "LightMotionChamber"
+        },
+        {
+          "id": "automation.light_motion_corridor",
+          "friendlyName": "Light - Motion - Corridor",
+          "cSharpName": "LightMotionCorridor"
+        },
+        {
+          "id": "automation.light_motion_entry",
+          "friendlyName": "Light - Motion - Entry",
+          "cSharpName": "LightMotionEntry"
+        },
+        {
+          "id": "automation.light_motion_kitchen",
+          "friendlyName": "Light - Motion - Kitchen",
+          "cSharpName": "LightMotionKitchen"
+        },
+        {
+          "id": "automation.light_motion_office",
+          "friendlyName": "Light - Motion - Office",
+          "cSharpName": "LightMotionOffice"
+        },
+        {
+          "id": "automation.light_turn_off_when_leaving",
+          "friendlyName": "Light: turn off when leaving",
+          "cSharpName": "LightTurnOffWhenLeaving"
+        },
+        {
+          "id": "automation.new_automation",
+          "friendlyName": "Light - Motion - Chamber 2",
+          "cSharpName": "NewAutomation"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "id",
+          "cSharpName": "Id",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "last_triggered",
+          "cSharpName": "LastTriggered",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "current",
+          "cSharpName": "Current",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "binary_sensor",
+      "entities": [
+        {
+          "id": "binary_sensor.cam_chamber_2_animal",
+          "friendlyName": "Cam - Chamber 2 Animal",
+          "cSharpName": "CamChamber2Animal"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_2_motion",
+          "friendlyName": "Cam - Chamber 2 Motion",
+          "cSharpName": "CamChamber2Motion"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_2_person",
+          "friendlyName": "Cam - Chamber 2 Person",
+          "cSharpName": "CamChamber2Person"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_2_vehicle",
+          "friendlyName": "Cam - Chamber 2 Vehicle",
+          "cSharpName": "CamChamber2Vehicle"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_animal",
+          "friendlyName": "Cam - Chamber Animal",
+          "cSharpName": "CamChamberAnimal"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_motion",
+          "friendlyName": "Cam - Chamber Motion",
+          "cSharpName": "CamChamberMotion"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_person",
+          "friendlyName": "Cam - Chamber Person",
+          "cSharpName": "CamChamberPerson"
+        },
+        {
+          "id": "binary_sensor.cam_chamber_vehicle",
+          "friendlyName": "Cam - Chamber Vehicle",
+          "cSharpName": "CamChamberVehicle"
+        },
+        {
+          "id": "binary_sensor.cam_corridor_animal",
+          "friendlyName": "Cam - Corridor Animal",
+          "cSharpName": "CamCorridorAnimal"
+        },
+        {
+          "id": "binary_sensor.cam_corridor_motion",
+          "friendlyName": "Cam - Corridor Motion",
+          "cSharpName": "CamCorridorMotion"
+        },
+        {
+          "id": "binary_sensor.cam_corridor_person",
+          "friendlyName": "Cam - Corridor Person",
+          "cSharpName": "CamCorridorPerson"
+        },
+        {
+          "id": "binary_sensor.cam_corridor_vehicle",
+          "friendlyName": "Cam - Corridor Vehicle",
+          "cSharpName": "CamCorridorVehicle"
+        },
+        {
+          "id": "binary_sensor.cam_entry_animal",
+          "friendlyName": "Cam - Entry Animal",
+          "cSharpName": "CamEntryAnimal"
+        },
+        {
+          "id": "binary_sensor.cam_entry_motion",
+          "friendlyName": "Cam - Entry Motion",
+          "cSharpName": "CamEntryMotion"
+        },
+        {
+          "id": "binary_sensor.cam_entry_person",
+          "friendlyName": "Cam - Entry Person",
+          "cSharpName": "CamEntryPerson"
+        },
+        {
+          "id": "binary_sensor.cam_entry_vehicle",
+          "friendlyName": "Cam - Entry Vehicle",
+          "cSharpName": "CamEntryVehicle"
+        },
+        {
+          "id": "binary_sensor.cam_kitchen_animal",
+          "friendlyName": "Cam - Kitchen Animal",
+          "cSharpName": "CamKitchenAnimal"
+        },
+        {
+          "id": "binary_sensor.cam_kitchen_motion",
+          "friendlyName": "Cam - Kitchen Motion",
+          "cSharpName": "CamKitchenMotion"
+        },
+        {
+          "id": "binary_sensor.cam_kitchen_person",
+          "friendlyName": "Cam - Kitchen Person",
+          "cSharpName": "CamKitchenPerson"
+        },
+        {
+          "id": "binary_sensor.cam_kitchen_vehicle",
+          "friendlyName": "Cam - Kitchen Vehicle",
+          "cSharpName": "CamKitchenVehicle"
+        },
+        {
+          "id": "binary_sensor.cam_office_animal",
+          "friendlyName": "Cam - Office Animal",
+          "cSharpName": "CamOfficeAnimal"
+        },
+        {
+          "id": "binary_sensor.cam_office_motion",
+          "friendlyName": "Cam - Office Motion",
+          "cSharpName": "CamOfficeMotion"
+        },
+        {
+          "id": "binary_sensor.cam_office_person",
+          "friendlyName": "Cam - Office Person",
+          "cSharpName": "CamOfficePerson"
+        },
+        {
+          "id": "binary_sensor.cam_office_vehicle",
+          "friendlyName": "Cam - Office Vehicle",
+          "cSharpName": "CamOfficeVehicle"
+        },
+        {
+          "id": "binary_sensor.chamber_1_climatecontrol_is_holiday_mode_active",
+          "friendlyName": "Chamber 1 ClimateControl Is holiday mode active",
+          "cSharpName": "Chamber1ClimatecontrolIsHolidayModeActive"
+        },
+        {
+          "id": "binary_sensor.chamber_1_climatecontrol_is_in_caution_state",
+          "friendlyName": "Chamber 1 ClimateControl Is in caution state",
+          "cSharpName": "Chamber1ClimatecontrolIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.chamber_1_climatecontrol_is_in_error_state",
+          "friendlyName": "Chamber 1 ClimateControl Is in error state",
+          "cSharpName": "Chamber1ClimatecontrolIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.chamber_1_climatecontrol_is_in_mode_conflict",
+          "friendlyName": "Chamber 1 ClimateControl Is in mode conflict",
+          "cSharpName": "Chamber1ClimatecontrolIsInModeConflict"
+        },
+        {
+          "id": "binary_sensor.chamber_1_climatecontrol_is_in_warning_state",
+          "friendlyName": "Chamber 1 ClimateControl Is in warning state",
+          "cSharpName": "Chamber1ClimatecontrolIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.chamber_1_climatecontrol_is_powerful_mode_active",
+          "friendlyName": "Chamber 1 ClimateControl Is powerful mode active",
+          "cSharpName": "Chamber1ClimatecontrolIsPowerfulModeActive"
+        },
+        {
+          "id": "binary_sensor.chamber_1_gateway_is_firmware_update_supported",
+          "friendlyName": "Chamber 1 Gateway Is firmware update supported",
+          "cSharpName": "Chamber1GatewayIsFirmwareUpdateSupported"
+        },
+        {
+          "id": "binary_sensor.chamber_1_gateway_is_in_error_state",
+          "friendlyName": "Chamber 1 Gateway Is in error state",
+          "cSharpName": "Chamber1GatewayIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.chamber_1_outdoorunit_is_in_caution_state",
+          "friendlyName": "Chamber 1 OutdoorUnit Is in caution state",
+          "cSharpName": "Chamber1OutdoorunitIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.chamber_1_outdoorunit_is_in_error_state",
+          "friendlyName": "Chamber 1 OutdoorUnit Is in error state",
+          "cSharpName": "Chamber1OutdoorunitIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.chamber_1_outdoorunit_is_in_warning_state",
+          "friendlyName": "Chamber 1 OutdoorUnit Is in warning state",
+          "cSharpName": "Chamber1OutdoorunitIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_climatecontrol_is_holiday_mode_active",
+          "friendlyName": "Chamber 2 ClimateControl Is holiday mode active",
+          "cSharpName": "Chamber2ClimatecontrolIsHolidayModeActive"
+        },
+        {
+          "id": "binary_sensor.chamber_2_climatecontrol_is_in_caution_state",
+          "friendlyName": "Chamber 2 ClimateControl Is in caution state",
+          "cSharpName": "Chamber2ClimatecontrolIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_climatecontrol_is_in_error_state",
+          "friendlyName": "Chamber 2 ClimateControl Is in error state",
+          "cSharpName": "Chamber2ClimatecontrolIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_climatecontrol_is_in_mode_conflict",
+          "friendlyName": "Chamber 2 ClimateControl Is in mode conflict",
+          "cSharpName": "Chamber2ClimatecontrolIsInModeConflict"
+        },
+        {
+          "id": "binary_sensor.chamber_2_climatecontrol_is_in_warning_state",
+          "friendlyName": "Chamber 2 ClimateControl Is in warning state",
+          "cSharpName": "Chamber2ClimatecontrolIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_climatecontrol_is_powerful_mode_active",
+          "friendlyName": "Chamber 2 ClimateControl Is powerful mode active",
+          "cSharpName": "Chamber2ClimatecontrolIsPowerfulModeActive"
+        },
+        {
+          "id": "binary_sensor.chamber_2_gateway_is_firmware_update_supported",
+          "friendlyName": "Chamber 2 Gateway Is firmware update supported",
+          "cSharpName": "Chamber2GatewayIsFirmwareUpdateSupported"
+        },
+        {
+          "id": "binary_sensor.chamber_2_gateway_is_in_error_state",
+          "friendlyName": "Chamber 2 Gateway Is in error state",
+          "cSharpName": "Chamber2GatewayIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_outdoorunit_is_in_caution_state",
+          "friendlyName": "Chamber 2 OutdoorUnit Is in caution state",
+          "cSharpName": "Chamber2OutdoorunitIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_outdoorunit_is_in_error_state",
+          "friendlyName": "Chamber 2 OutdoorUnit Is in error state",
+          "cSharpName": "Chamber2OutdoorunitIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.chamber_2_outdoorunit_is_in_warning_state",
+          "friendlyName": "Chamber 2 OutdoorUnit Is in warning state",
+          "cSharpName": "Chamber2OutdoorunitIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.dishwasher_child_lock",
+          "friendlyName": "Dishwasher Child lock",
+          "cSharpName": "DishwasherChildLock"
+        },
+        {
+          "id": "binary_sensor.dishwasher_power",
+          "friendlyName": "Dishwasher Power",
+          "cSharpName": "DishwasherPower"
+        },
+        {
+          "id": "binary_sensor.dishwasher_remote_control",
+          "friendlyName": "Dishwasher Remote control",
+          "cSharpName": "DishwasherRemoteControl"
+        },
+        {
+          "id": "binary_sensor.dryer_child_lock",
+          "friendlyName": "Dryer Child lock",
+          "cSharpName": "DryerChildLock"
+        },
+        {
+          "id": "binary_sensor.dryer_power",
+          "friendlyName": "Dryer Power",
+          "cSharpName": "DryerPower"
+        },
+        {
+          "id": "binary_sensor.dryer_remote_control",
+          "friendlyName": "Dryer Remote control",
+          "cSharpName": "DryerRemoteControl"
+        },
+        {
+          "id": "binary_sensor.dryer_wrinkle_prevent_active",
+          "friendlyName": "Dryer Wrinkle prevent active",
+          "cSharpName": "DryerWrinklePreventActive"
+        },
+        {
+          "id": "binary_sensor.electric_cooktop_power",
+          "friendlyName": "Electric cooktop Power",
+          "cSharpName": "ElectricCooktopPower"
+        },
+        {
+          "id": "binary_sensor.living_room_climatecontrol_is_holiday_mode_active",
+          "friendlyName": "Living room ClimateControl Is holiday mode active",
+          "cSharpName": "LivingRoomClimatecontrolIsHolidayModeActive"
+        },
+        {
+          "id": "binary_sensor.living_room_climatecontrol_is_in_caution_state",
+          "friendlyName": "Living room ClimateControl Is in caution state",
+          "cSharpName": "LivingRoomClimatecontrolIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.living_room_climatecontrol_is_in_error_state",
+          "friendlyName": "Living room ClimateControl Is in error state",
+          "cSharpName": "LivingRoomClimatecontrolIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.living_room_climatecontrol_is_in_mode_conflict",
+          "friendlyName": "Living room ClimateControl Is in mode conflict",
+          "cSharpName": "LivingRoomClimatecontrolIsInModeConflict"
+        },
+        {
+          "id": "binary_sensor.living_room_climatecontrol_is_in_warning_state",
+          "friendlyName": "Living room ClimateControl Is in warning state",
+          "cSharpName": "LivingRoomClimatecontrolIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.living_room_climatecontrol_is_powerful_mode_active",
+          "friendlyName": "Living room ClimateControl Is powerful mode active",
+          "cSharpName": "LivingRoomClimatecontrolIsPowerfulModeActive"
+        },
+        {
+          "id": "binary_sensor.living_room_gateway_is_firmware_update_supported",
+          "friendlyName": "Living room Gateway Is firmware update supported",
+          "cSharpName": "LivingRoomGatewayIsFirmwareUpdateSupported"
+        },
+        {
+          "id": "binary_sensor.living_room_gateway_is_in_error_state",
+          "friendlyName": "Living room Gateway Is in error state",
+          "cSharpName": "LivingRoomGatewayIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.living_room_outdoorunit_is_in_caution_state",
+          "friendlyName": "Living room OutdoorUnit Is in caution state",
+          "cSharpName": "LivingRoomOutdoorunitIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.living_room_outdoorunit_is_in_error_state",
+          "friendlyName": "Living room OutdoorUnit Is in error state",
+          "cSharpName": "LivingRoomOutdoorunitIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.living_room_outdoorunit_is_in_warning_state",
+          "friendlyName": "Living room OutdoorUnit Is in warning state",
+          "cSharpName": "LivingRoomOutdoorunitIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.office_climatecontrol_is_holiday_mode_active",
+          "friendlyName": "Office ClimateControl Is holiday mode active",
+          "cSharpName": "OfficeClimatecontrolIsHolidayModeActive"
+        },
+        {
+          "id": "binary_sensor.office_climatecontrol_is_in_caution_state",
+          "friendlyName": "Office ClimateControl Is in caution state",
+          "cSharpName": "OfficeClimatecontrolIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.office_climatecontrol_is_in_error_state",
+          "friendlyName": "Office ClimateControl Is in error state",
+          "cSharpName": "OfficeClimatecontrolIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.office_climatecontrol_is_in_mode_conflict",
+          "friendlyName": "Office ClimateControl Is in mode conflict",
+          "cSharpName": "OfficeClimatecontrolIsInModeConflict"
+        },
+        {
+          "id": "binary_sensor.office_climatecontrol_is_in_warning_state",
+          "friendlyName": "Office ClimateControl Is in warning state",
+          "cSharpName": "OfficeClimatecontrolIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.office_climatecontrol_is_powerful_mode_active",
+          "friendlyName": "Office ClimateControl Is powerful mode active",
+          "cSharpName": "OfficeClimatecontrolIsPowerfulModeActive"
+        },
+        {
+          "id": "binary_sensor.office_gateway_is_firmware_update_supported",
+          "friendlyName": "Office Gateway Is firmware update supported",
+          "cSharpName": "OfficeGatewayIsFirmwareUpdateSupported"
+        },
+        {
+          "id": "binary_sensor.office_gateway_is_in_error_state",
+          "friendlyName": "Office Gateway Is in error state",
+          "cSharpName": "OfficeGatewayIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.office_outdoorunit_is_in_caution_state",
+          "friendlyName": "Office OutdoorUnit Is in caution state",
+          "cSharpName": "OfficeOutdoorunitIsInCautionState"
+        },
+        {
+          "id": "binary_sensor.office_outdoorunit_is_in_error_state",
+          "friendlyName": "Office OutdoorUnit Is in error state",
+          "cSharpName": "OfficeOutdoorunitIsInErrorState"
+        },
+        {
+          "id": "binary_sensor.office_outdoorunit_is_in_warning_state",
+          "friendlyName": "Office OutdoorUnit Is in warning state",
+          "cSharpName": "OfficeOutdoorunitIsInWarningState"
+        },
+        {
+          "id": "binary_sensor.oven_child_lock",
+          "friendlyName": "Oven Child lock",
+          "cSharpName": "OvenChildLock"
+        },
+        {
+          "id": "binary_sensor.oven_door",
+          "friendlyName": "Oven Door",
+          "cSharpName": "OvenDoor"
+        },
+        {
+          "id": "binary_sensor.oven_remote_control",
+          "friendlyName": "Oven Remote control",
+          "cSharpName": "OvenRemoteControl"
+        },
+        {
+          "id": "binary_sensor.oven_second_cavity_status",
+          "friendlyName": "Oven Second cavity status",
+          "cSharpName": "OvenSecondCavityStatus"
+        },
+        {
+          "id": "binary_sensor.refrigerator_freezer_door",
+          "friendlyName": "Refrigerator Freezer door",
+          "cSharpName": "RefrigeratorFreezerDoor"
+        },
+        {
+          "id": "binary_sensor.refrigerator_fridge_door",
+          "friendlyName": "Refrigerator Fridge door",
+          "cSharpName": "RefrigeratorFridgeDoor"
+        },
+        {
+          "id": "binary_sensor.rte_tempo_heures_creuses",
+          "friendlyName": "RTE Tempo Heures Creuses",
+          "cSharpName": "RteTempoHeuresCreuses"
+        },
+        {
+          "id": "binary_sensor.studio_code_server_running",
+          "friendlyName": "Studio Code Server Running",
+          "cSharpName": "StudioCodeServerRunning"
+        },
+        {
+          "id": "binary_sensor.washer_child_lock",
+          "friendlyName": "Washer Child lock",
+          "cSharpName": "WasherChildLock"
+        },
+        {
+          "id": "binary_sensor.washer_power",
+          "friendlyName": "Washer Power",
+          "cSharpName": "WasherPower"
+        },
+        {
+          "id": "binary_sensor.washer_remote_control",
+          "friendlyName": "Washer Remote control",
+          "cSharpName": "WasherRemoteControl"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "button",
+      "entities": [
+        {
+          "id": "button.chamber_1_refresh",
+          "friendlyName": "Chamber 1 Refresh",
+          "cSharpName": "Chamber1Refresh"
+        },
+        {
+          "id": "button.chamber_2_refresh",
+          "friendlyName": "Chamber 2 Refresh",
+          "cSharpName": "Chamber2Refresh"
+        },
+        {
+          "id": "button.dishwasher_cancel",
+          "friendlyName": "Dishwasher Cancel",
+          "cSharpName": "DishwasherCancel"
+        },
+        {
+          "id": "button.dishwasher_cancel_and_drain",
+          "friendlyName": "Dishwasher Cancel and drain",
+          "cSharpName": "DishwasherCancelAndDrain"
+        },
+        {
+          "id": "button.dishwasher_pause",
+          "friendlyName": "Dishwasher Pause",
+          "cSharpName": "DishwasherPause"
+        },
+        {
+          "id": "button.dishwasher_resume",
+          "friendlyName": "Dishwasher Resume",
+          "cSharpName": "DishwasherResume"
+        },
+        {
+          "id": "button.dishwasher_start",
+          "friendlyName": "Dishwasher Start",
+          "cSharpName": "DishwasherStart"
+        },
+        {
+          "id": "button.living_room_refresh",
+          "friendlyName": "Living room Refresh",
+          "cSharpName": "LivingRoomRefresh"
+        },
+        {
+          "id": "button.office_refresh",
+          "friendlyName": "Office Refresh",
+          "cSharpName": "OfficeRefresh"
+        },
+        {
+          "id": "button.oven_stop",
+          "friendlyName": "Oven Stop",
+          "cSharpName": "OvenStop"
+        },
+        {
+          "id": "button.smart_plug_mini_identify",
+          "friendlyName": "Screen - Left Identify",
+          "cSharpName": "SmartPlugMiniIdentify"
+        },
+        {
+          "id": "button.smart_switch_2309263415624251081348e1e9dc0074_refresh",
+          "friendlyName": "Office - Screen left Refresh",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Refresh"
+        },
+        {
+          "id": "button.smart_switch_2309263415624251081348e1e9dc0074_reload",
+          "friendlyName": "Office - Screen left Reload",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Reload"
+        },
+        {
+          "id": "button.smart_switch_2309264007244851081348e1e9dbf4df_refresh",
+          "friendlyName": "Office - Desk Refresh",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfRefresh"
+        },
+        {
+          "id": "button.smart_switch_2309264007244851081348e1e9dbf4df_reload",
+          "friendlyName": "Office - Desk Reload",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfReload"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "calendar",
+      "entities": [
+        {
+          "id": "calendar.rte_tempo_calendrier",
+          "friendlyName": "RTE Tempo Calendrier",
+          "cSharpName": "RteTempoCalendrier"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "message",
+          "cSharpName": "Message",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "all_day",
+          "cSharpName": "AllDay",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "start_time",
+          "cSharpName": "StartTime",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "end_time",
+          "cSharpName": "EndTime",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "location",
+          "cSharpName": "Location",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "description",
+          "cSharpName": "Description",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "camera",
+      "entities": [
+        {
+          "id": "camera.cam_chamber_2_fluent",
+          "friendlyName": "Cam - Chamber 2 Fluent",
+          "cSharpName": "CamChamber2Fluent"
+        },
+        {
+          "id": "camera.cam_chamber_fluent",
+          "friendlyName": "Cam - Chamber Fluent",
+          "cSharpName": "CamChamberFluent"
+        },
+        {
+          "id": "camera.cam_corridor_fluent",
+          "friendlyName": "Cam - Corridor Fluent",
+          "cSharpName": "CamCorridorFluent"
+        },
+        {
+          "id": "camera.cam_entry_fluent",
+          "friendlyName": "Cam - Entry Fluent",
+          "cSharpName": "CamEntryFluent"
+        },
+        {
+          "id": "camera.cam_kitchen_fluent",
+          "friendlyName": "Cam - Kitchen Fluent",
+          "cSharpName": "CamKitchenFluent"
+        },
+        {
+          "id": "camera.cam_office_fluent",
+          "friendlyName": "Cam - Office Fluent",
+          "cSharpName": "CamOfficeFluent"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "access_token",
+          "cSharpName": "AccessToken",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "climate",
+      "entities": [
+        {
+          "id": "climate.chamber_1_room_temperature",
+          "friendlyName": "Chamber 1 Room Temperature",
+          "cSharpName": "Chamber1RoomTemperature"
+        },
+        {
+          "id": "climate.chamber_2_room_temperature",
+          "friendlyName": "Chamber 2 Room Temperature",
+          "cSharpName": "Chamber2RoomTemperature"
+        },
+        {
+          "id": "climate.living_room_room_temperature",
+          "friendlyName": "Living room Room Temperature",
+          "cSharpName": "LivingRoomRoomTemperature"
+        },
+        {
+          "id": "climate.office_room_temperature",
+          "friendlyName": "Office Room Temperature",
+          "cSharpName": "OfficeRoomTemperature"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "hvac_modes",
+          "cSharpName": "HvacModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "min_temp",
+          "cSharpName": "MinTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_temp",
+          "cSharpName": "MaxTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "target_temp_step",
+          "cSharpName": "TargetTempStep",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "fan_modes",
+          "cSharpName": "FanModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "preset_modes",
+          "cSharpName": "PresetModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "swing_modes",
+          "cSharpName": "SwingModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "swing_horizontal_modes",
+          "cSharpName": "SwingHorizontalModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "current_temperature",
+          "cSharpName": "CurrentTemperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "fan_mode",
+          "cSharpName": "FanMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "preset_mode",
+          "cSharpName": "PresetMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "swing_mode",
+          "cSharpName": "SwingMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "swing_horizontal_mode",
+          "cSharpName": "SwingHorizontalMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "conversation",
+      "entities": [
+        {
+          "id": "conversation.home_assistant",
+          "friendlyName": "Home Assistant",
+          "cSharpName": "HomeAssistant"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "device_tracker",
+      "entities": [
+        {
+          "id": "device_tracker.google_pixel_watch",
+          "friendlyName": "Google Pixel Watch",
+          "cSharpName": "GooglePixelWatch"
+        },
+        {
+          "id": "device_tracker.pixel_10_pro_xl",
+          "friendlyName": "Pixel 10 Pro XL",
+          "cSharpName": "Pixel10ProXl"
+        },
+        {
+          "id": "device_tracker.pixel_8_pro_3",
+          "friendlyName": "Pixel 8 Pro",
+          "cSharpName": "Pixel8Pro3"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "source_type",
+          "cSharpName": "SourceType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "gps_accuracy",
+          "cSharpName": "GpsAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "altitude",
+          "cSharpName": "Altitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "course",
+          "cSharpName": "Course",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "speed",
+          "cSharpName": "Speed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "vertical_accuracy",
+          "cSharpName": "VerticalAccuracy",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "event",
+      "entities": [
+        {
+          "id": "event.backup_automatic_backup",
+          "friendlyName": "Backup Automatic backup",
+          "cSharpName": "BackupAutomaticBackup"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "event_types",
+          "cSharpName": "EventTypes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "event_type",
+          "cSharpName": "EventType",
+          "clrType": null
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "input_boolean",
+      "entities": [
+        {
+          "id": "input_boolean.dev_netdaemon_app_model_hello_yaml_app",
+          "friendlyName": "dev_netdaemon_app_model_hello_yaml_app",
+          "cSharpName": "DevNetdaemonAppModelHelloYamlApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_clim_energy_calculator_apps_extensions_scheduling_scheduling_app",
+          "friendlyName": "dev_netdaemon_clim_energy_calculator_apps_extensions_scheduling_scheduling_app",
+          "cSharpName": "DevNetdaemonClimEnergyCalculatorAppsExtensionsSchedulingSchedulingApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_clim_energy_calculator_apps_hass_model_light_on_movement_compute_app",
+          "friendlyName": "dev_netdaemon_clim_energy_calculator_apps_hass_model_light_on_movement_compute_app",
+          "cSharpName": "DevNetdaemonClimEnergyCalculatorAppsHassModelLightOnMovementComputeApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_elyspio_home_assistant_lights_apps_app_model_yaml_config_app_hello_yaml_app",
+          "friendlyName": "dev_netdaemon_elyspio_home_assistant_lights_apps_app_model_yaml_config_app_hello_yaml_app",
+          "cSharpName": "DevNetdaemonElyspioHomeAssistantLightsAppsAppModelYamlConfigAppHelloYamlApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_elyspio_home_assistant_lights_apps_extensions_scheduling_scheduling_app",
+          "friendlyName": "dev_netdaemon_elyspio_home_assistant_lights_apps_extensions_scheduling_scheduling_app",
+          "cSharpName": "DevNetdaemonElyspioHomeAssistantLightsAppsExtensionsSchedulingSchedulingApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_elyspio_home_assistant_lights_apps_hass_model_hello_world_hello_world_app",
+          "friendlyName": "dev_netdaemon_elyspio_home_assistant_lights_apps_hass_model_hello_world_hello_world_app",
+          "cSharpName": "DevNetdaemonElyspioHomeAssistantLightsAppsHassModelHelloWorldHelloWorldApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_elyspio_home_assistant_lights_apps_hass_model_light_on_movement_light_on_movement",
+          "friendlyName": "dev_netdaemon_elyspio_home_assistant_lights_apps_hass_model_light_on_movement_light_on_movement",
+          "cSharpName": "DevNetdaemonElyspioHomeAssistantLightsAppsHassModelLightOnMovementLightOnMovement"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_extensions_scheduling_scheduling_app",
+          "friendlyName": "dev_netdaemon_extensions_scheduling_scheduling_app",
+          "cSharpName": "DevNetdaemonExtensionsSchedulingSchedulingApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_hass_model_hello_world_app",
+          "friendlyName": "dev_netdaemon_hass_model_hello_world_app",
+          "cSharpName": "DevNetdaemonHassModelHelloWorldApp"
+        },
+        {
+          "id": "input_boolean.dev_netdaemon_hass_model_light_on_movement",
+          "friendlyName": "dev_netdaemon_hass_model_light_on_movement",
+          "cSharpName": "DevNetdaemonHassModelLightOnMovement"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "number",
+      "isNumeric": true,
+      "entities": [
+        {
+          "id": "number.cam_chamber_2_ai_animal_sensitivity",
+          "friendlyName": "Cam - Chamber 2 AI animal sensitivity",
+          "cSharpName": "CamChamber2AiAnimalSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_2_ai_person_sensitivity",
+          "friendlyName": "Cam - Chamber 2 AI person sensitivity",
+          "cSharpName": "CamChamber2AiPersonSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_2_ai_vehicle_sensitivity",
+          "friendlyName": "Cam - Chamber 2 AI vehicle sensitivity",
+          "cSharpName": "CamChamber2AiVehicleSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_2_motion_sensitivity",
+          "friendlyName": "Cam - Chamber 2 Motion sensitivity",
+          "cSharpName": "CamChamber2MotionSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_2_volume",
+          "friendlyName": "Cam - Chamber 2 Volume",
+          "cSharpName": "CamChamber2Volume"
+        },
+        {
+          "id": "number.cam_chamber_ai_animal_sensitivity",
+          "friendlyName": "Cam - Chamber AI animal sensitivity",
+          "cSharpName": "CamChamberAiAnimalSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_ai_person_sensitivity",
+          "friendlyName": "Cam - Chamber AI person sensitivity",
+          "cSharpName": "CamChamberAiPersonSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_ai_vehicle_sensitivity",
+          "friendlyName": "Cam - Chamber AI vehicle sensitivity",
+          "cSharpName": "CamChamberAiVehicleSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_motion_sensitivity",
+          "friendlyName": "Cam - Chamber Motion sensitivity",
+          "cSharpName": "CamChamberMotionSensitivity"
+        },
+        {
+          "id": "number.cam_chamber_volume",
+          "friendlyName": "Cam - Chamber Volume",
+          "cSharpName": "CamChamberVolume"
+        },
+        {
+          "id": "number.cam_corridor_ai_animal_sensitivity",
+          "friendlyName": "Cam - Corridor AI animal sensitivity",
+          "cSharpName": "CamCorridorAiAnimalSensitivity"
+        },
+        {
+          "id": "number.cam_corridor_ai_person_sensitivity",
+          "friendlyName": "Cam - Corridor AI person sensitivity",
+          "cSharpName": "CamCorridorAiPersonSensitivity"
+        },
+        {
+          "id": "number.cam_corridor_ai_vehicle_sensitivity",
+          "friendlyName": "Cam - Corridor AI vehicle sensitivity",
+          "cSharpName": "CamCorridorAiVehicleSensitivity"
+        },
+        {
+          "id": "number.cam_corridor_motion_sensitivity",
+          "friendlyName": "Cam - Corridor Motion sensitivity",
+          "cSharpName": "CamCorridorMotionSensitivity"
+        },
+        {
+          "id": "number.cam_corridor_volume",
+          "friendlyName": "Cam - Corridor Volume",
+          "cSharpName": "CamCorridorVolume"
+        },
+        {
+          "id": "number.cam_entry_ai_animal_sensitivity",
+          "friendlyName": "Cam - Entry AI animal sensitivity",
+          "cSharpName": "CamEntryAiAnimalSensitivity"
+        },
+        {
+          "id": "number.cam_entry_ai_person_sensitivity",
+          "friendlyName": "Cam - Entry AI person sensitivity",
+          "cSharpName": "CamEntryAiPersonSensitivity"
+        },
+        {
+          "id": "number.cam_entry_ai_vehicle_sensitivity",
+          "friendlyName": "Cam - Entry AI vehicle sensitivity",
+          "cSharpName": "CamEntryAiVehicleSensitivity"
+        },
+        {
+          "id": "number.cam_entry_motion_sensitivity",
+          "friendlyName": "Cam - Entry Motion sensitivity",
+          "cSharpName": "CamEntryMotionSensitivity"
+        },
+        {
+          "id": "number.cam_entry_volume",
+          "friendlyName": "Cam - Entry Volume",
+          "cSharpName": "CamEntryVolume"
+        },
+        {
+          "id": "number.cam_kitchen_ai_animal_sensitivity",
+          "friendlyName": "Cam - Kitchen AI animal sensitivity",
+          "cSharpName": "CamKitchenAiAnimalSensitivity"
+        },
+        {
+          "id": "number.cam_kitchen_ai_person_sensitivity",
+          "friendlyName": "Cam - Kitchen AI person sensitivity",
+          "cSharpName": "CamKitchenAiPersonSensitivity"
+        },
+        {
+          "id": "number.cam_kitchen_ai_vehicle_sensitivity",
+          "friendlyName": "Cam - Kitchen AI vehicle sensitivity",
+          "cSharpName": "CamKitchenAiVehicleSensitivity"
+        },
+        {
+          "id": "number.cam_kitchen_motion_sensitivity",
+          "friendlyName": "Cam - Kitchen Motion sensitivity",
+          "cSharpName": "CamKitchenMotionSensitivity"
+        },
+        {
+          "id": "number.cam_kitchen_volume",
+          "friendlyName": "Cam - Kitchen Volume",
+          "cSharpName": "CamKitchenVolume"
+        },
+        {
+          "id": "number.cam_office_ai_animal_sensitivity",
+          "friendlyName": "Cam - Office AI animal sensitivity",
+          "cSharpName": "CamOfficeAiAnimalSensitivity"
+        },
+        {
+          "id": "number.cam_office_ai_person_sensitivity",
+          "friendlyName": "Cam - Office AI person sensitivity",
+          "cSharpName": "CamOfficeAiPersonSensitivity"
+        },
+        {
+          "id": "number.cam_office_ai_vehicle_sensitivity",
+          "friendlyName": "Cam - Office AI vehicle sensitivity",
+          "cSharpName": "CamOfficeAiVehicleSensitivity"
+        },
+        {
+          "id": "number.cam_office_motion_sensitivity",
+          "friendlyName": "Cam - Office Motion sensitivity",
+          "cSharpName": "CamOfficeMotionSensitivity"
+        },
+        {
+          "id": "number.cam_office_volume",
+          "friendlyName": "Cam - Office Volume",
+          "cSharpName": "CamOfficeVolume"
+        },
+        {
+          "id": "number.refrigerator_freezer_temperature",
+          "friendlyName": "Refrigerator Freezer temperature",
+          "cSharpName": "RefrigeratorFreezerTemperature"
+        },
+        {
+          "id": "number.refrigerator_fridge_temperature",
+          "friendlyName": "Refrigerator Fridge temperature",
+          "cSharpName": "RefrigeratorFridgeTemperature"
+        },
+        {
+          "id": "number.washer_rinse_cycles",
+          "friendlyName": "Washer Rinse cycles",
+          "cSharpName": "WasherRinseCycles"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "min",
+          "cSharpName": "Min",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max",
+          "cSharpName": "Max",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "step",
+          "cSharpName": "Step",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "mode",
+          "cSharpName": "Mode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "unit_of_measurement",
+          "cSharpName": "UnitOfMeasurement",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "person",
+      "entities": [
+        {
+          "id": "person.elyspio",
+          "friendlyName": "Elyspio",
+          "cSharpName": "Elyspio"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "id",
+          "cSharpName": "Id",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_trackers",
+          "cSharpName": "DeviceTrackers",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "gps_accuracy",
+          "cSharpName": "GpsAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "user_id",
+          "cSharpName": "UserId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "scene",
+      "entities": [
+        {
+          "id": "scene.bedroom_concentrate",
+          "friendlyName": "Bedroom Concentrate",
+          "cSharpName": "BedroomConcentrate"
+        },
+        {
+          "id": "scene.bedroom_energize",
+          "friendlyName": "Bedroom Energize",
+          "cSharpName": "BedroomEnergize"
+        },
+        {
+          "id": "scene.bedroom_natural_light",
+          "friendlyName": "Bedroom Natural light",
+          "cSharpName": "BedroomNaturalLight"
+        },
+        {
+          "id": "scene.bedroom_nightlight",
+          "friendlyName": "Bedroom Nightlight",
+          "cSharpName": "BedroomNightlight"
+        },
+        {
+          "id": "scene.bedroom_read",
+          "friendlyName": "Bedroom Read",
+          "cSharpName": "BedroomRead"
+        },
+        {
+          "id": "scene.bedroom_relax",
+          "friendlyName": "Bedroom Relax",
+          "cSharpName": "BedroomRelax"
+        },
+        {
+          "id": "scene.bedroom_rest",
+          "friendlyName": "Bedroom Rest",
+          "cSharpName": "BedroomRest"
+        },
+        {
+          "id": "scene.laundry_room_concentrate",
+          "friendlyName": "Laundry room Concentrate",
+          "cSharpName": "LaundryRoomConcentrate"
+        },
+        {
+          "id": "scene.laundry_room_read",
+          "friendlyName": "Laundry room Read",
+          "cSharpName": "LaundryRoomRead"
+        },
+        {
+          "id": "scene.living_room_bright",
+          "friendlyName": "Living room Bright",
+          "cSharpName": "LivingRoomBright"
+        },
+        {
+          "id": "scene.living_room_read",
+          "friendlyName": "Living room Read",
+          "cSharpName": "LivingRoomRead"
+        },
+        {
+          "id": "scene.office_concentrate",
+          "friendlyName": "Office Concentrate",
+          "cSharpName": "OfficeConcentrate"
+        },
+        {
+          "id": "scene.office_energize",
+          "friendlyName": "Office Energize",
+          "cSharpName": "OfficeEnergize"
+        },
+        {
+          "id": "scene.office_natural_light_2",
+          "friendlyName": "Office Natural light 2",
+          "cSharpName": "OfficeNaturalLight2"
+        },
+        {
+          "id": "scene.office_nightlight",
+          "friendlyName": "Office Nightlight",
+          "cSharpName": "OfficeNightlight"
+        },
+        {
+          "id": "scene.office_read",
+          "friendlyName": "Office Read",
+          "cSharpName": "OfficeRead"
+        },
+        {
+          "id": "scene.office_relax",
+          "friendlyName": "Office Relax",
+          "cSharpName": "OfficeRelax"
+        },
+        {
+          "id": "scene.office_rest",
+          "friendlyName": "Office Rest",
+          "cSharpName": "OfficeRest"
+        },
+        {
+          "id": "scene.other_concentrate",
+          "friendlyName": "Other Concentrate",
+          "cSharpName": "OtherConcentrate"
+        },
+        {
+          "id": "scene.other_energize",
+          "friendlyName": "Other Energize",
+          "cSharpName": "OtherEnergize"
+        },
+        {
+          "id": "scene.other_read",
+          "friendlyName": "Other Read",
+          "cSharpName": "OtherRead"
+        },
+        {
+          "id": "scene.other_relax",
+          "friendlyName": "Other Relax",
+          "cSharpName": "OtherRelax"
+        },
+        {
+          "id": "scene.toilet_concentrate",
+          "friendlyName": "Toilet Concentrate",
+          "cSharpName": "ToiletConcentrate"
+        },
+        {
+          "id": "scene.toilet_energize",
+          "friendlyName": "Toilet Energize",
+          "cSharpName": "ToiletEnergize"
+        },
+        {
+          "id": "scene.toilet_natural_light",
+          "friendlyName": "Toilet Natural light",
+          "cSharpName": "ToiletNaturalLight"
+        },
+        {
+          "id": "scene.toilet_nightlight",
+          "friendlyName": "Toilet Nightlight",
+          "cSharpName": "ToiletNightlight"
+        },
+        {
+          "id": "scene.toilet_read",
+          "friendlyName": "Toilet Read",
+          "cSharpName": "ToiletRead"
+        },
+        {
+          "id": "scene.toilet_relax",
+          "friendlyName": "Toilet Relax",
+          "cSharpName": "ToiletRelax"
+        },
+        {
+          "id": "scene.toilet_rest",
+          "friendlyName": "Toilet Rest",
+          "cSharpName": "ToiletRest"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "group_name",
+          "cSharpName": "GroupName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "group_type",
+          "cSharpName": "GroupType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "name",
+          "cSharpName": "Name",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "speed",
+          "cSharpName": "Speed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "brightness",
+          "cSharpName": "Brightness",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "is_dynamic",
+          "cSharpName": "IsDynamic",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "is_active",
+          "cSharpName": "IsActive",
+          "clrType": "System.Boolean"
+        }
+      ]
+    },
+    {
+      "domain": "select",
+      "entities": [
+        {
+          "id": "select.cam_chamber_2_day_night_mode",
+          "friendlyName": "Cam - Chamber 2 Day night mode",
+          "cSharpName": "CamChamber2DayNightMode"
+        },
+        {
+          "id": "select.cam_chamber_2_floodlight_mode",
+          "friendlyName": "Cam - Chamber 2 Floodlight mode",
+          "cSharpName": "CamChamber2FloodlightMode"
+        },
+        {
+          "id": "select.cam_chamber_day_night_mode",
+          "friendlyName": "Cam - Chamber Day night mode",
+          "cSharpName": "CamChamberDayNightMode"
+        },
+        {
+          "id": "select.cam_chamber_floodlight_mode",
+          "friendlyName": "Cam - Chamber Floodlight mode",
+          "cSharpName": "CamChamberFloodlightMode"
+        },
+        {
+          "id": "select.cam_corridor_day_night_mode",
+          "friendlyName": "Cam - Corridor Day night mode",
+          "cSharpName": "CamCorridorDayNightMode"
+        },
+        {
+          "id": "select.cam_corridor_floodlight_mode",
+          "friendlyName": "Cam - Corridor Floodlight mode",
+          "cSharpName": "CamCorridorFloodlightMode"
+        },
+        {
+          "id": "select.cam_entry_day_night_mode",
+          "friendlyName": "Cam - Entry Day night mode",
+          "cSharpName": "CamEntryDayNightMode"
+        },
+        {
+          "id": "select.cam_entry_floodlight_mode",
+          "friendlyName": "Cam - Entry Floodlight mode",
+          "cSharpName": "CamEntryFloodlightMode"
+        },
+        {
+          "id": "select.cam_kitchen_day_night_mode",
+          "friendlyName": "Cam - Kitchen Day night mode",
+          "cSharpName": "CamKitchenDayNightMode"
+        },
+        {
+          "id": "select.cam_kitchen_floodlight_mode",
+          "friendlyName": "Cam - Kitchen Floodlight mode",
+          "cSharpName": "CamKitchenFloodlightMode"
+        },
+        {
+          "id": "select.cam_office_day_night_mode",
+          "friendlyName": "Cam - Office Day night mode",
+          "cSharpName": "CamOfficeDayNightMode"
+        },
+        {
+          "id": "select.cam_office_floodlight_mode",
+          "friendlyName": "Cam - Office Floodlight mode",
+          "cSharpName": "CamOfficeFloodlightMode"
+        },
+        {
+          "id": "select.chamber_1_climatecontrol_schedule",
+          "friendlyName": "Chamber 1 ClimateControl Schedule",
+          "cSharpName": "Chamber1ClimatecontrolSchedule"
+        },
+        {
+          "id": "select.chamber_2_climatecontrol_schedule",
+          "friendlyName": "Chamber 2 ClimateControl Schedule",
+          "cSharpName": "Chamber2ClimatecontrolSchedule"
+        },
+        {
+          "id": "select.dishwasher",
+          "friendlyName": "Dishwasher",
+          "cSharpName": "Dishwasher"
+        },
+        {
+          "id": "select.dishwasher_selected_zone",
+          "friendlyName": "Dishwasher Selected zone",
+          "cSharpName": "DishwasherSelectedZone"
+        },
+        {
+          "id": "select.dryer",
+          "friendlyName": "Dryer",
+          "cSharpName": "Dryer"
+        },
+        {
+          "id": "select.living_room_climatecontrol_schedule",
+          "friendlyName": "Living room ClimateControl Schedule",
+          "cSharpName": "LivingRoomClimatecontrolSchedule"
+        },
+        {
+          "id": "select.office_climatecontrol_schedule",
+          "friendlyName": "Office ClimateControl Schedule",
+          "cSharpName": "OfficeClimatecontrolSchedule"
+        },
+        {
+          "id": "select.oven_lamp",
+          "friendlyName": "Oven Lamp",
+          "cSharpName": "OvenLamp"
+        },
+        {
+          "id": "select.washer",
+          "friendlyName": "Washer",
+          "cSharpName": "Washer"
+        },
+        {
+          "id": "select.washer_spin_level",
+          "friendlyName": "Washer Spin level",
+          "cSharpName": "WasherSpinLevel"
+        },
+        {
+          "id": "select.washer_water_temperature",
+          "friendlyName": "Washer Water temperature",
+          "cSharpName": "WasherWaterTemperature"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "options",
+          "cSharpName": "Options",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "sensor",
+      "entities": [
+        {
+          "id": "sensor.65_oled_tv_channel",
+          "friendlyName": "65\u0022 OLED TV channel",
+          "cSharpName": "_65OledTvChannel"
+        },
+        {
+          "id": "sensor.65_oled_tv_channel_name",
+          "friendlyName": "65\u0022 OLED TV channel name",
+          "cSharpName": "_65OledTvChannelName"
+        },
+        {
+          "id": "sensor.backup_backup_manager_state",
+          "friendlyName": "Backup Backup Manager state",
+          "cSharpName": "BackupBackupManagerState"
+        },
+        {
+          "id": "sensor.backup_last_attempted_automatic_backup",
+          "friendlyName": "Backup Last attempted automatic backup",
+          "cSharpName": "BackupLastAttemptedAutomaticBackup"
+        },
+        {
+          "id": "sensor.backup_last_successful_automatic_backup",
+          "friendlyName": "Backup Last successful automatic backup",
+          "cSharpName": "BackupLastSuccessfulAutomaticBackup"
+        },
+        {
+          "id": "sensor.backup_next_scheduled_automatic_backup",
+          "friendlyName": "Backup Next scheduled automatic backup",
+          "cSharpName": "BackupNextScheduledAutomaticBackup"
+        },
+        {
+          "id": "sensor.cam_chamber_2_day_night_state",
+          "friendlyName": "Cam - Chamber 2 Day night state",
+          "cSharpName": "CamChamber2DayNightState"
+        },
+        {
+          "id": "sensor.cam_chamber_day_night_state",
+          "friendlyName": "Cam - Chamber Day night state",
+          "cSharpName": "CamChamberDayNightState"
+        },
+        {
+          "id": "sensor.cam_corridor_day_night_state",
+          "friendlyName": "Cam - Corridor Day night state",
+          "cSharpName": "CamCorridorDayNightState"
+        },
+        {
+          "id": "sensor.cam_entry_day_night_state",
+          "friendlyName": "Cam - Entry Day night state",
+          "cSharpName": "CamEntryDayNightState"
+        },
+        {
+          "id": "sensor.cam_kitchen_day_night_state",
+          "friendlyName": "Cam - Kitchen Day night state",
+          "cSharpName": "CamKitchenDayNightState"
+        },
+        {
+          "id": "sensor.cam_office_day_night_state",
+          "friendlyName": "Cam - Office Day night state",
+          "cSharpName": "CamOfficeDayNightState"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_error_code",
+          "friendlyName": "Chamber 1 ClimateControl Error code",
+          "cSharpName": "Chamber1ClimatecontrolErrorCode"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_name",
+          "friendlyName": "ClimateControl Name",
+          "cSharpName": "Chamber1ClimatecontrolName"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_on_off_mode",
+          "friendlyName": "On/Off mode",
+          "cSharpName": "Chamber1ClimatecontrolOnOffMode"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_powerful_mode",
+          "friendlyName": "Powerful mode",
+          "cSharpName": "Chamber1ClimatecontrolPowerfulMode"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_error_code",
+          "friendlyName": "Chamber 1 Gateway Error code",
+          "cSharpName": "Chamber1GatewayErrorCode"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_firmware_version",
+          "friendlyName": "Gateway Firmware Version",
+          "cSharpName": "Chamber1GatewayFirmwareVersion"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_ip_address",
+          "friendlyName": "Chamber 1 Gateway IP address",
+          "cSharpName": "Chamber1GatewayIpAddress"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_mac_address",
+          "friendlyName": "Gateway Mac Address",
+          "cSharpName": "Chamber1GatewayMacAddress"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_model_info",
+          "friendlyName": "Gateway Model Info",
+          "cSharpName": "Chamber1GatewayModelInfo"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_serial_number",
+          "friendlyName": "Gateway Serial Number",
+          "cSharpName": "Chamber1GatewaySerialNumber"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_ssid",
+          "friendlyName": "Chamber 1 Gateway SSID",
+          "cSharpName": "Chamber1GatewaySsid"
+        },
+        {
+          "id": "sensor.chamber_1_gateway_time_zone",
+          "friendlyName": "Chamber 1 Gateway Time zone",
+          "cSharpName": "Chamber1GatewayTimeZone"
+        },
+        {
+          "id": "sensor.chamber_1_indoorunit_model_info",
+          "friendlyName": "IndoorUnit Model Info",
+          "cSharpName": "Chamber1IndoorunitModelInfo"
+        },
+        {
+          "id": "sensor.chamber_1_indoorunit_serial_number",
+          "friendlyName": "IndoorUnit Serial Number",
+          "cSharpName": "Chamber1IndoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.chamber_1_indoorunit_software_version",
+          "friendlyName": "IndoorUnit Software Version",
+          "cSharpName": "Chamber1IndoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.chamber_1_outdoorunit_error_code",
+          "friendlyName": "Chamber 1 OutdoorUnit Error code",
+          "cSharpName": "Chamber1OutdoorunitErrorCode"
+        },
+        {
+          "id": "sensor.chamber_1_outdoorunit_model_info",
+          "friendlyName": "OutdoorUnit Model Info",
+          "cSharpName": "Chamber1OutdoorunitModelInfo"
+        },
+        {
+          "id": "sensor.chamber_1_outdoorunit_serial_number",
+          "friendlyName": "OutdoorUnit Serial Number",
+          "cSharpName": "Chamber1OutdoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.chamber_1_outdoorunit_software_version",
+          "friendlyName": "OutdoorUnit Software Version",
+          "cSharpName": "Chamber1OutdoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.chamber_1_ratelimit_day",
+          "friendlyName": "RateLimit day",
+          "cSharpName": "Chamber1RatelimitDay"
+        },
+        {
+          "id": "sensor.chamber_1_ratelimit_minute",
+          "friendlyName": "RateLimit minute",
+          "cSharpName": "Chamber1RatelimitMinute"
+        },
+        {
+          "id": "sensor.chamber_1_ratelimit_ratelimit_reset",
+          "friendlyName": "RateLimit ratelimit_reset",
+          "cSharpName": "Chamber1RatelimitRatelimitReset"
+        },
+        {
+          "id": "sensor.chamber_1_ratelimit_remaining_day",
+          "friendlyName": "Chamber 1 Gateway Ratelimit remaining day",
+          "cSharpName": "Chamber1RatelimitRemainingDay"
+        },
+        {
+          "id": "sensor.chamber_1_ratelimit_remaining_minutes",
+          "friendlyName": "RateLimit remaining_minutes",
+          "cSharpName": "Chamber1RatelimitRemainingMinutes"
+        },
+        {
+          "id": "sensor.chamber_1_ratelimit_retry_after",
+          "friendlyName": "RateLimit retry_after",
+          "cSharpName": "Chamber1RatelimitRetryAfter"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_error_code",
+          "friendlyName": "Chamber 2 ClimateControl Error code",
+          "cSharpName": "Chamber2ClimatecontrolErrorCode"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_name",
+          "friendlyName": "ClimateControl Name",
+          "cSharpName": "Chamber2ClimatecontrolName"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_on_off_mode",
+          "friendlyName": "On/Off mode",
+          "cSharpName": "Chamber2ClimatecontrolOnOffMode"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_powerful_mode",
+          "friendlyName": "Powerful mode",
+          "cSharpName": "Chamber2ClimatecontrolPowerfulMode"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_error_code",
+          "friendlyName": "Chamber 2 Gateway Error code",
+          "cSharpName": "Chamber2GatewayErrorCode"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_firmware_version",
+          "friendlyName": "Gateway Firmware Version",
+          "cSharpName": "Chamber2GatewayFirmwareVersion"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_ip_address",
+          "friendlyName": "Chamber 2 Gateway IP address",
+          "cSharpName": "Chamber2GatewayIpAddress"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_mac_address",
+          "friendlyName": "Gateway Mac Address",
+          "cSharpName": "Chamber2GatewayMacAddress"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_model_info",
+          "friendlyName": "Gateway Model Info",
+          "cSharpName": "Chamber2GatewayModelInfo"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_serial_number",
+          "friendlyName": "Gateway Serial Number",
+          "cSharpName": "Chamber2GatewaySerialNumber"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_ssid",
+          "friendlyName": "Chamber 2 Gateway SSID",
+          "cSharpName": "Chamber2GatewaySsid"
+        },
+        {
+          "id": "sensor.chamber_2_gateway_time_zone",
+          "friendlyName": "Chamber 2 Gateway Time zone",
+          "cSharpName": "Chamber2GatewayTimeZone"
+        },
+        {
+          "id": "sensor.chamber_2_indoorunit_model_info",
+          "friendlyName": "IndoorUnit Model Info",
+          "cSharpName": "Chamber2IndoorunitModelInfo"
+        },
+        {
+          "id": "sensor.chamber_2_indoorunit_serial_number",
+          "friendlyName": "IndoorUnit Serial Number",
+          "cSharpName": "Chamber2IndoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.chamber_2_indoorunit_software_version",
+          "friendlyName": "IndoorUnit Software Version",
+          "cSharpName": "Chamber2IndoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.chamber_2_outdoorunit_error_code",
+          "friendlyName": "Chamber 2 OutdoorUnit Error code",
+          "cSharpName": "Chamber2OutdoorunitErrorCode"
+        },
+        {
+          "id": "sensor.chamber_2_outdoorunit_model_info",
+          "friendlyName": "OutdoorUnit Model Info",
+          "cSharpName": "Chamber2OutdoorunitModelInfo"
+        },
+        {
+          "id": "sensor.chamber_2_outdoorunit_serial_number",
+          "friendlyName": "OutdoorUnit Serial Number",
+          "cSharpName": "Chamber2OutdoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.chamber_2_outdoorunit_software_version",
+          "friendlyName": "OutdoorUnit Software Version",
+          "cSharpName": "Chamber2OutdoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.chamber_2_ratelimit_day",
+          "friendlyName": "RateLimit day",
+          "cSharpName": "Chamber2RatelimitDay"
+        },
+        {
+          "id": "sensor.chamber_2_ratelimit_minute",
+          "friendlyName": "RateLimit minute",
+          "cSharpName": "Chamber2RatelimitMinute"
+        },
+        {
+          "id": "sensor.chamber_2_ratelimit_ratelimit_reset",
+          "friendlyName": "RateLimit ratelimit_reset",
+          "cSharpName": "Chamber2RatelimitRatelimitReset"
+        },
+        {
+          "id": "sensor.chamber_2_ratelimit_remaining_day",
+          "friendlyName": "Chamber 2 Gateway Ratelimit remaining day",
+          "cSharpName": "Chamber2RatelimitRemainingDay"
+        },
+        {
+          "id": "sensor.chamber_2_ratelimit_remaining_minutes",
+          "friendlyName": "RateLimit remaining_minutes",
+          "cSharpName": "Chamber2RatelimitRemainingMinutes"
+        },
+        {
+          "id": "sensor.chamber_2_ratelimit_retry_after",
+          "friendlyName": "RateLimit retry_after",
+          "cSharpName": "Chamber2RatelimitRetryAfter"
+        },
+        {
+          "id": "sensor.dishwasher_completion_time",
+          "friendlyName": "Dishwasher Completion time",
+          "cSharpName": "DishwasherCompletionTime"
+        },
+        {
+          "id": "sensor.dishwasher_job_state",
+          "friendlyName": "Dishwasher Job state",
+          "cSharpName": "DishwasherJobState"
+        },
+        {
+          "id": "sensor.dishwasher_machine_state",
+          "friendlyName": "Dishwasher Machine state",
+          "cSharpName": "DishwasherMachineState"
+        },
+        {
+          "id": "sensor.dryer_completion_time",
+          "friendlyName": "Dryer Completion time",
+          "cSharpName": "DryerCompletionTime"
+        },
+        {
+          "id": "sensor.dryer_job_state",
+          "friendlyName": "Dryer Job state",
+          "cSharpName": "DryerJobState"
+        },
+        {
+          "id": "sensor.dryer_machine_state",
+          "friendlyName": "Dryer Machine state",
+          "cSharpName": "DryerMachineState"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_1_heating_mode",
+          "friendlyName": "Electric cooktop Burner 1 heating mode",
+          "cSharpName": "ElectricCooktopBurner1HeatingMode"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_1_level",
+          "friendlyName": "Electric cooktop Burner 1 level",
+          "cSharpName": "ElectricCooktopBurner1Level"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_2_heating_mode",
+          "friendlyName": "Electric cooktop Burner 2 heating mode",
+          "cSharpName": "ElectricCooktopBurner2HeatingMode"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_2_level",
+          "friendlyName": "Electric cooktop Burner 2 level",
+          "cSharpName": "ElectricCooktopBurner2Level"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_3_heating_mode",
+          "friendlyName": "Electric cooktop Burner 3 heating mode",
+          "cSharpName": "ElectricCooktopBurner3HeatingMode"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_3_level",
+          "friendlyName": "Electric cooktop Burner 3 level",
+          "cSharpName": "ElectricCooktopBurner3Level"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_4_heating_mode",
+          "friendlyName": "Electric cooktop Burner 4 heating mode",
+          "cSharpName": "ElectricCooktopBurner4HeatingMode"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_4_level",
+          "friendlyName": "Electric cooktop Burner 4 level",
+          "cSharpName": "ElectricCooktopBurner4Level"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_5_heating_mode",
+          "friendlyName": "Electric cooktop Burner 5 heating mode",
+          "cSharpName": "ElectricCooktopBurner5HeatingMode"
+        },
+        {
+          "id": "sensor.electric_cooktop_burner_5_level",
+          "friendlyName": "Electric cooktop Burner 5 level",
+          "cSharpName": "ElectricCooktopBurner5Level"
+        },
+        {
+          "id": "sensor.electric_cooktop_operating_state",
+          "friendlyName": "Electric cooktop Operating state",
+          "cSharpName": "ElectricCooktopOperatingState"
+        },
+        {
+          "id": "sensor.google_pixel_watch_battery_state",
+          "friendlyName": "Google Pixel Watch Battery state",
+          "cSharpName": "GooglePixelWatchBatteryState"
+        },
+        {
+          "id": "sensor.google_pixel_watch_charger_type",
+          "friendlyName": "Google Pixel Watch Charger type",
+          "cSharpName": "GooglePixelWatchChargerType"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_error_code",
+          "friendlyName": "Living room ClimateControl Error code",
+          "cSharpName": "LivingRoomClimatecontrolErrorCode"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_name",
+          "friendlyName": "ClimateControl Name",
+          "cSharpName": "LivingRoomClimatecontrolName"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_on_off_mode",
+          "friendlyName": "On/Off mode",
+          "cSharpName": "LivingRoomClimatecontrolOnOffMode"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_powerful_mode",
+          "friendlyName": "Powerful mode",
+          "cSharpName": "LivingRoomClimatecontrolPowerfulMode"
+        },
+        {
+          "id": "sensor.living_room_gateway_error_code",
+          "friendlyName": "Living room Gateway Error code",
+          "cSharpName": "LivingRoomGatewayErrorCode"
+        },
+        {
+          "id": "sensor.living_room_gateway_firmware_version",
+          "friendlyName": "Gateway Firmware Version",
+          "cSharpName": "LivingRoomGatewayFirmwareVersion"
+        },
+        {
+          "id": "sensor.living_room_gateway_ip_address",
+          "friendlyName": "Living room Gateway IP address",
+          "cSharpName": "LivingRoomGatewayIpAddress"
+        },
+        {
+          "id": "sensor.living_room_gateway_mac_address",
+          "friendlyName": "Gateway Mac Address",
+          "cSharpName": "LivingRoomGatewayMacAddress"
+        },
+        {
+          "id": "sensor.living_room_gateway_model_info",
+          "friendlyName": "Gateway Model Info",
+          "cSharpName": "LivingRoomGatewayModelInfo"
+        },
+        {
+          "id": "sensor.living_room_gateway_serial_number",
+          "friendlyName": "Gateway Serial Number",
+          "cSharpName": "LivingRoomGatewaySerialNumber"
+        },
+        {
+          "id": "sensor.living_room_gateway_ssid",
+          "friendlyName": "Living room Gateway SSID",
+          "cSharpName": "LivingRoomGatewaySsid"
+        },
+        {
+          "id": "sensor.living_room_gateway_time_zone",
+          "friendlyName": "Living room Gateway Time zone",
+          "cSharpName": "LivingRoomGatewayTimeZone"
+        },
+        {
+          "id": "sensor.living_room_indoorunit_model_info",
+          "friendlyName": "IndoorUnit Model Info",
+          "cSharpName": "LivingRoomIndoorunitModelInfo"
+        },
+        {
+          "id": "sensor.living_room_indoorunit_serial_number",
+          "friendlyName": "IndoorUnit Serial Number",
+          "cSharpName": "LivingRoomIndoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.living_room_indoorunit_software_version",
+          "friendlyName": "IndoorUnit Software Version",
+          "cSharpName": "LivingRoomIndoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.living_room_outdoorunit_error_code",
+          "friendlyName": "Living room OutdoorUnit Error code",
+          "cSharpName": "LivingRoomOutdoorunitErrorCode"
+        },
+        {
+          "id": "sensor.living_room_outdoorunit_model_info",
+          "friendlyName": "OutdoorUnit Model Info",
+          "cSharpName": "LivingRoomOutdoorunitModelInfo"
+        },
+        {
+          "id": "sensor.living_room_outdoorunit_serial_number",
+          "friendlyName": "OutdoorUnit Serial Number",
+          "cSharpName": "LivingRoomOutdoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.living_room_outdoorunit_software_version",
+          "friendlyName": "OutdoorUnit Software Version",
+          "cSharpName": "LivingRoomOutdoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.living_room_ratelimit_day",
+          "friendlyName": "RateLimit day",
+          "cSharpName": "LivingRoomRatelimitDay"
+        },
+        {
+          "id": "sensor.living_room_ratelimit_minute",
+          "friendlyName": "RateLimit minute",
+          "cSharpName": "LivingRoomRatelimitMinute"
+        },
+        {
+          "id": "sensor.living_room_ratelimit_ratelimit_reset",
+          "friendlyName": "RateLimit ratelimit_reset",
+          "cSharpName": "LivingRoomRatelimitRatelimitReset"
+        },
+        {
+          "id": "sensor.living_room_ratelimit_remaining_day",
+          "friendlyName": "Living room Gateway Ratelimit remaining day",
+          "cSharpName": "LivingRoomRatelimitRemainingDay"
+        },
+        {
+          "id": "sensor.living_room_ratelimit_remaining_minutes",
+          "friendlyName": "RateLimit remaining_minutes",
+          "cSharpName": "LivingRoomRatelimitRemainingMinutes"
+        },
+        {
+          "id": "sensor.living_room_ratelimit_retry_after",
+          "friendlyName": "RateLimit retry_after",
+          "cSharpName": "LivingRoomRatelimitRetryAfter"
+        },
+        {
+          "id": "sensor.office_climatecontrol_error_code",
+          "friendlyName": "Office ClimateControl Error code",
+          "cSharpName": "OfficeClimatecontrolErrorCode"
+        },
+        {
+          "id": "sensor.office_climatecontrol_name",
+          "friendlyName": "ClimateControl Name",
+          "cSharpName": "OfficeClimatecontrolName"
+        },
+        {
+          "id": "sensor.office_climatecontrol_on_off_mode",
+          "friendlyName": "On/Off mode",
+          "cSharpName": "OfficeClimatecontrolOnOffMode"
+        },
+        {
+          "id": "sensor.office_climatecontrol_powerful_mode",
+          "friendlyName": "Powerful mode",
+          "cSharpName": "OfficeClimatecontrolPowerfulMode"
+        },
+        {
+          "id": "sensor.office_gateway_error_code",
+          "friendlyName": "Office Gateway Error code",
+          "cSharpName": "OfficeGatewayErrorCode"
+        },
+        {
+          "id": "sensor.office_gateway_firmware_version",
+          "friendlyName": "Gateway Firmware Version",
+          "cSharpName": "OfficeGatewayFirmwareVersion"
+        },
+        {
+          "id": "sensor.office_gateway_ip_address",
+          "friendlyName": "Office Gateway IP address",
+          "cSharpName": "OfficeGatewayIpAddress"
+        },
+        {
+          "id": "sensor.office_gateway_mac_address",
+          "friendlyName": "Gateway Mac Address",
+          "cSharpName": "OfficeGatewayMacAddress"
+        },
+        {
+          "id": "sensor.office_gateway_model_info",
+          "friendlyName": "Gateway Model Info",
+          "cSharpName": "OfficeGatewayModelInfo"
+        },
+        {
+          "id": "sensor.office_gateway_serial_number",
+          "friendlyName": "Gateway Serial Number",
+          "cSharpName": "OfficeGatewaySerialNumber"
+        },
+        {
+          "id": "sensor.office_gateway_ssid",
+          "friendlyName": "Office Gateway SSID",
+          "cSharpName": "OfficeGatewaySsid"
+        },
+        {
+          "id": "sensor.office_gateway_time_zone",
+          "friendlyName": "Office Gateway Time zone",
+          "cSharpName": "OfficeGatewayTimeZone"
+        },
+        {
+          "id": "sensor.office_indoorunit_model_info",
+          "friendlyName": "IndoorUnit Model Info",
+          "cSharpName": "OfficeIndoorunitModelInfo"
+        },
+        {
+          "id": "sensor.office_indoorunit_serial_number",
+          "friendlyName": "IndoorUnit Serial Number",
+          "cSharpName": "OfficeIndoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.office_indoorunit_software_version",
+          "friendlyName": "IndoorUnit Software Version",
+          "cSharpName": "OfficeIndoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.office_outdoorunit_error_code",
+          "friendlyName": "Office OutdoorUnit Error code",
+          "cSharpName": "OfficeOutdoorunitErrorCode"
+        },
+        {
+          "id": "sensor.office_outdoorunit_model_info",
+          "friendlyName": "OutdoorUnit Model Info",
+          "cSharpName": "OfficeOutdoorunitModelInfo"
+        },
+        {
+          "id": "sensor.office_outdoorunit_serial_number",
+          "friendlyName": "OutdoorUnit Serial Number",
+          "cSharpName": "OfficeOutdoorunitSerialNumber"
+        },
+        {
+          "id": "sensor.office_outdoorunit_software_version",
+          "friendlyName": "OutdoorUnit Software Version",
+          "cSharpName": "OfficeOutdoorunitSoftwareVersion"
+        },
+        {
+          "id": "sensor.office_ratelimit_day",
+          "friendlyName": "RateLimit day",
+          "cSharpName": "OfficeRatelimitDay"
+        },
+        {
+          "id": "sensor.office_ratelimit_minute",
+          "friendlyName": "RateLimit minute",
+          "cSharpName": "OfficeRatelimitMinute"
+        },
+        {
+          "id": "sensor.office_ratelimit_ratelimit_reset",
+          "friendlyName": "RateLimit ratelimit_reset",
+          "cSharpName": "OfficeRatelimitRatelimitReset"
+        },
+        {
+          "id": "sensor.office_ratelimit_remaining_day",
+          "friendlyName": "Office Gateway Ratelimit remaining day",
+          "cSharpName": "OfficeRatelimitRemainingDay"
+        },
+        {
+          "id": "sensor.office_ratelimit_remaining_minutes",
+          "friendlyName": "RateLimit remaining_minutes",
+          "cSharpName": "OfficeRatelimitRemainingMinutes"
+        },
+        {
+          "id": "sensor.office_ratelimit_retry_after",
+          "friendlyName": "RateLimit retry_after",
+          "cSharpName": "OfficeRatelimitRetryAfter"
+        },
+        {
+          "id": "sensor.oven_completion_time",
+          "friendlyName": "Oven Completion time",
+          "cSharpName": "OvenCompletionTime"
+        },
+        {
+          "id": "sensor.oven_job_state",
+          "friendlyName": "Oven Job state",
+          "cSharpName": "OvenJobState"
+        },
+        {
+          "id": "sensor.oven_machine_state",
+          "friendlyName": "Oven Machine state",
+          "cSharpName": "OvenMachineState"
+        },
+        {
+          "id": "sensor.oven_oven_mode",
+          "friendlyName": "Oven Oven mode",
+          "cSharpName": "OvenOvenMode"
+        },
+        {
+          "id": "sensor.oven_second_cavity_completion_time",
+          "friendlyName": "Oven Second cavity completion time",
+          "cSharpName": "OvenSecondCavityCompletionTime"
+        },
+        {
+          "id": "sensor.oven_second_cavity_job_state",
+          "friendlyName": "Oven Second cavity job state",
+          "cSharpName": "OvenSecondCavityJobState"
+        },
+        {
+          "id": "sensor.oven_second_cavity_machine_state",
+          "friendlyName": "Oven Second cavity machine state",
+          "cSharpName": "OvenSecondCavityMachineState"
+        },
+        {
+          "id": "sensor.oven_second_cavity_oven_mode",
+          "friendlyName": "Oven Second cavity oven mode",
+          "cSharpName": "OvenSecondCavityOvenMode"
+        },
+        {
+          "id": "sensor.pixel_10_pro_xl_battery_state",
+          "friendlyName": "Pixel 10 Pro XL Battery state",
+          "cSharpName": "Pixel10ProXlBatteryState"
+        },
+        {
+          "id": "sensor.pixel_10_pro_xl_charger_type",
+          "friendlyName": "Pixel 10 Pro XL Charger type",
+          "cSharpName": "Pixel10ProXlChargerType"
+        },
+        {
+          "id": "sensor.pixel_8_pro_battery_state",
+          "friendlyName": "Pixel 8 Pro Battery state",
+          "cSharpName": "Pixel8ProBatteryState"
+        },
+        {
+          "id": "sensor.pixel_8_pro_charger_type",
+          "friendlyName": "Pixel 8 Pro Charger type",
+          "cSharpName": "Pixel8ProChargerType"
+        },
+        {
+          "id": "sensor.rte_tempo_couleur_actuelle",
+          "friendlyName": "RTE Tempo Couleur actuelle",
+          "cSharpName": "RteTempoCouleurActuelle"
+        },
+        {
+          "id": "sensor.rte_tempo_couleur_actuelle_visuel",
+          "friendlyName": "RTE Tempo Couleur actuelle (visuel)",
+          "cSharpName": "RteTempoCouleurActuelleVisuel"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_prochaine_reinitialisation",
+          "friendlyName": "RTE Tempo Cycle Prochaine r\u00E9initialisation",
+          "cSharpName": "RteTempoCycleProchaineReinitialisation"
+        },
+        {
+          "id": "sensor.rte_tempo_heures_creuses_changement",
+          "friendlyName": "RTE Tempo Heures Creuses (changement)",
+          "cSharpName": "RteTempoHeuresCreusesChangement"
+        },
+        {
+          "id": "sensor.rte_tempo_prochaine_couleur",
+          "friendlyName": "RTE Tempo Prochaine couleur",
+          "cSharpName": "RteTempoProchaineCouleur"
+        },
+        {
+          "id": "sensor.rte_tempo_prochaine_couleur_changement",
+          "friendlyName": "RTE Tempo Prochaine couleur (changement)",
+          "cSharpName": "RteTempoProchaineCouleurChangement"
+        },
+        {
+          "id": "sensor.rte_tempo_prochaine_couleur_visuel",
+          "friendlyName": "RTE Tempo Prochaine couleur (visuel)",
+          "cSharpName": "RteTempoProchaineCouleurVisuel"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_config_overtemp_type",
+          "friendlyName": "Office - Screen left Config overtemp type",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074ConfigOvertempType"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_config_overtemp_type",
+          "friendlyName": "Office - Desk Config overtemp type",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfConfigOvertempType"
+        },
+        {
+          "id": "sensor.studio_code_server_newest_version",
+          "friendlyName": "Studio Code Server Newest version",
+          "cSharpName": "StudioCodeServerNewestVersion"
+        },
+        {
+          "id": "sensor.studio_code_server_version",
+          "friendlyName": "Studio Code Server Version",
+          "cSharpName": "StudioCodeServerVersion"
+        },
+        {
+          "id": "sensor.sun_next_dawn",
+          "friendlyName": "Sun Next dawn",
+          "cSharpName": "SunNextDawn"
+        },
+        {
+          "id": "sensor.sun_next_dusk",
+          "friendlyName": "Sun Next dusk",
+          "cSharpName": "SunNextDusk"
+        },
+        {
+          "id": "sensor.sun_next_midnight",
+          "friendlyName": "Sun Next midnight",
+          "cSharpName": "SunNextMidnight"
+        },
+        {
+          "id": "sensor.sun_next_noon",
+          "friendlyName": "Sun Next noon",
+          "cSharpName": "SunNextNoon"
+        },
+        {
+          "id": "sensor.sun_next_rising",
+          "friendlyName": "Sun Next rising",
+          "cSharpName": "SunNextRising"
+        },
+        {
+          "id": "sensor.sun_next_setting",
+          "friendlyName": "Sun Next setting",
+          "cSharpName": "SunNextSetting"
+        },
+        {
+          "id": "sensor.washer_completion_time",
+          "friendlyName": "Washer Completion time",
+          "cSharpName": "WasherCompletionTime"
+        },
+        {
+          "id": "sensor.washer_job_state",
+          "friendlyName": "Washer Job state",
+          "cSharpName": "WasherJobState"
+        },
+        {
+          "id": "sensor.washer_machine_state",
+          "friendlyName": "Washer Machine state",
+          "cSharpName": "WasherMachineState"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "options",
+          "cSharpName": "Options",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "state_class",
+          "cSharpName": "StateClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "restored",
+          "cSharpName": "Restored",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "sensor",
+      "isNumeric": true,
+      "entities": [
+        {
+          "id": "sensor.65_oled_energy",
+          "friendlyName": "65\u0022 OLED Energy",
+          "cSharpName": "_65OledEnergy"
+        },
+        {
+          "id": "sensor.65_oled_energy_difference",
+          "friendlyName": "65\u0022 OLED Energy difference",
+          "cSharpName": "_65OledEnergyDifference"
+        },
+        {
+          "id": "sensor.65_oled_energy_saved",
+          "friendlyName": "65\u0022 OLED Energy saved",
+          "cSharpName": "_65OledEnergySaved"
+        },
+        {
+          "id": "sensor.65_oled_power",
+          "friendlyName": "65\u0022 OLED Power",
+          "cSharpName": "_65OledPower"
+        },
+        {
+          "id": "sensor.65_oled_power_energy",
+          "friendlyName": "65\u0022 OLED Power energy",
+          "cSharpName": "_65OledPowerEnergy"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_cooling_daily_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Cooling daily electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolCoolingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_cooling_monthly_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Cooling monthly electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolCoolingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_cooling_weekly_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Cooling weekly electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolCoolingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_cooling_yearly_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Cooling yearly electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolCoolingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_heating_daily_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Heating daily electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolHeatingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_heating_monthly_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Heating monthly electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolHeatingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_heating_weekly_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Heating weekly electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolHeatingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_heating_yearly_electrical_consumption",
+          "friendlyName": "Chamber 1 ClimateControl Heating yearly electrical consumption",
+          "cSharpName": "Chamber1ClimatecontrolHeatingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_outdoor_temperature",
+          "friendlyName": "Chamber 1 ClimateControl Outdoor temperature",
+          "cSharpName": "Chamber1ClimatecontrolOutdoorTemperature"
+        },
+        {
+          "id": "sensor.chamber_1_climatecontrol_room_temperature",
+          "friendlyName": "Chamber 1 ClimateControl Room temperature",
+          "cSharpName": "Chamber1ClimatecontrolRoomTemperature"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_cooling_daily_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Cooling daily electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolCoolingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_cooling_monthly_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Cooling monthly electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolCoolingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_cooling_weekly_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Cooling weekly electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolCoolingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_cooling_yearly_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Cooling yearly electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolCoolingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_heating_daily_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Heating daily electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolHeatingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_heating_monthly_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Heating monthly electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolHeatingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_heating_weekly_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Heating weekly electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolHeatingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_heating_yearly_electrical_consumption",
+          "friendlyName": "Chamber 2 ClimateControl Heating yearly electrical consumption",
+          "cSharpName": "Chamber2ClimatecontrolHeatingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_outdoor_temperature",
+          "friendlyName": "Chamber 2 ClimateControl Outdoor temperature",
+          "cSharpName": "Chamber2ClimatecontrolOutdoorTemperature"
+        },
+        {
+          "id": "sensor.chamber_2_climatecontrol_room_temperature",
+          "friendlyName": "Chamber 2 ClimateControl Room temperature",
+          "cSharpName": "Chamber2ClimatecontrolRoomTemperature"
+        },
+        {
+          "id": "sensor.dishwasher_energy",
+          "friendlyName": "Dishwasher Energy",
+          "cSharpName": "DishwasherEnergy"
+        },
+        {
+          "id": "sensor.dishwasher_energy_difference",
+          "friendlyName": "Dishwasher Energy difference",
+          "cSharpName": "DishwasherEnergyDifference"
+        },
+        {
+          "id": "sensor.dishwasher_energy_saved",
+          "friendlyName": "Dishwasher Energy saved",
+          "cSharpName": "DishwasherEnergySaved"
+        },
+        {
+          "id": "sensor.dishwasher_power",
+          "friendlyName": "Dishwasher Power",
+          "cSharpName": "DishwasherPower"
+        },
+        {
+          "id": "sensor.dishwasher_power_energy",
+          "friendlyName": "Dishwasher Power energy",
+          "cSharpName": "DishwasherPowerEnergy"
+        },
+        {
+          "id": "sensor.dishwasher_water_consumption",
+          "friendlyName": "Dishwasher Water consumption",
+          "cSharpName": "DishwasherWaterConsumption"
+        },
+        {
+          "id": "sensor.dryer_energy",
+          "friendlyName": "Dryer Energy",
+          "cSharpName": "DryerEnergy"
+        },
+        {
+          "id": "sensor.dryer_energy_difference",
+          "friendlyName": "Dryer Energy difference",
+          "cSharpName": "DryerEnergyDifference"
+        },
+        {
+          "id": "sensor.dryer_energy_saved",
+          "friendlyName": "Dryer Energy saved",
+          "cSharpName": "DryerEnergySaved"
+        },
+        {
+          "id": "sensor.dryer_power",
+          "friendlyName": "Dryer Power",
+          "cSharpName": "DryerPower"
+        },
+        {
+          "id": "sensor.dryer_power_energy",
+          "friendlyName": "Dryer Power energy",
+          "cSharpName": "DryerPowerEnergy"
+        },
+        {
+          "id": "sensor.electricity_maps_co2_intensity_2",
+          "friendlyName": "Electricity Maps CO2 intensity",
+          "cSharpName": "ElectricityMapsCo2Intensity2"
+        },
+        {
+          "id": "sensor.electricity_maps_grid_fossil_fuel_percentage_2",
+          "friendlyName": "Electricity Maps Grid fossil fuel percentage",
+          "cSharpName": "ElectricityMapsGridFossilFuelPercentage2"
+        },
+        {
+          "id": "sensor.google_pixel_watch_battery_level",
+          "friendlyName": "Google Pixel Watch Battery level",
+          "cSharpName": "GooglePixelWatchBatteryLevel"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_cooling_daily_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Cooling daily electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolCoolingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_cooling_monthly_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Cooling monthly electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolCoolingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_cooling_weekly_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Cooling weekly electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolCoolingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_cooling_yearly_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Cooling yearly electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolCoolingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_heating_daily_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Heating daily electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolHeatingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_heating_monthly_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Heating monthly electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolHeatingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_heating_weekly_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Heating weekly electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolHeatingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_heating_yearly_electrical_consumption",
+          "friendlyName": "Living room ClimateControl Heating yearly electrical consumption",
+          "cSharpName": "LivingRoomClimatecontrolHeatingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_outdoor_temperature",
+          "friendlyName": "Living room ClimateControl Outdoor temperature",
+          "cSharpName": "LivingRoomClimatecontrolOutdoorTemperature"
+        },
+        {
+          "id": "sensor.living_room_climatecontrol_room_temperature",
+          "friendlyName": "Living room ClimateControl Room temperature",
+          "cSharpName": "LivingRoomClimatecontrolRoomTemperature"
+        },
+        {
+          "id": "sensor.office_climatecontrol_cooling_daily_electrical_consumption",
+          "friendlyName": "Office ClimateControl Cooling daily electrical consumption",
+          "cSharpName": "OfficeClimatecontrolCoolingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_cooling_monthly_electrical_consumption",
+          "friendlyName": "Office ClimateControl Cooling monthly electrical consumption",
+          "cSharpName": "OfficeClimatecontrolCoolingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_cooling_weekly_electrical_consumption",
+          "friendlyName": "Office ClimateControl Cooling weekly electrical consumption",
+          "cSharpName": "OfficeClimatecontrolCoolingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_cooling_yearly_electrical_consumption",
+          "friendlyName": "Office ClimateControl Cooling yearly electrical consumption",
+          "cSharpName": "OfficeClimatecontrolCoolingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_heating_daily_electrical_consumption",
+          "friendlyName": "Office ClimateControl Heating daily electrical consumption",
+          "cSharpName": "OfficeClimatecontrolHeatingDailyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_heating_monthly_electrical_consumption",
+          "friendlyName": "Office ClimateControl Heating monthly electrical consumption",
+          "cSharpName": "OfficeClimatecontrolHeatingMonthlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_heating_weekly_electrical_consumption",
+          "friendlyName": "Office ClimateControl Heating weekly electrical consumption",
+          "cSharpName": "OfficeClimatecontrolHeatingWeeklyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_heating_yearly_electrical_consumption",
+          "friendlyName": "Office ClimateControl Heating yearly electrical consumption",
+          "cSharpName": "OfficeClimatecontrolHeatingYearlyElectricalConsumption"
+        },
+        {
+          "id": "sensor.office_climatecontrol_outdoor_temperature",
+          "friendlyName": "Office ClimateControl Outdoor temperature",
+          "cSharpName": "OfficeClimatecontrolOutdoorTemperature"
+        },
+        {
+          "id": "sensor.office_climatecontrol_room_temperature",
+          "friendlyName": "Office ClimateControl Room temperature",
+          "cSharpName": "OfficeClimatecontrolRoomTemperature"
+        },
+        {
+          "id": "sensor.oven_energy",
+          "friendlyName": "Oven Energy",
+          "cSharpName": "OvenEnergy"
+        },
+        {
+          "id": "sensor.oven_energy_difference",
+          "friendlyName": "Oven Energy difference",
+          "cSharpName": "OvenEnergyDifference"
+        },
+        {
+          "id": "sensor.oven_energy_saved",
+          "friendlyName": "Oven Energy saved",
+          "cSharpName": "OvenEnergySaved"
+        },
+        {
+          "id": "sensor.oven_power",
+          "friendlyName": "Oven Power",
+          "cSharpName": "OvenPower"
+        },
+        {
+          "id": "sensor.oven_power_energy",
+          "friendlyName": "Oven Power energy",
+          "cSharpName": "OvenPowerEnergy"
+        },
+        {
+          "id": "sensor.oven_second_cavity_setpoint",
+          "friendlyName": "Oven Second cavity setpoint",
+          "cSharpName": "OvenSecondCavitySetpoint"
+        },
+        {
+          "id": "sensor.oven_second_cavity_temperature",
+          "friendlyName": "Oven Second cavity temperature",
+          "cSharpName": "OvenSecondCavityTemperature"
+        },
+        {
+          "id": "sensor.oven_setpoint",
+          "friendlyName": "Oven Setpoint",
+          "cSharpName": "OvenSetpoint"
+        },
+        {
+          "id": "sensor.oven_temperature",
+          "friendlyName": "Oven Temperature",
+          "cSharpName": "OvenTemperature"
+        },
+        {
+          "id": "sensor.pixel_10_pro_xl_battery_level",
+          "friendlyName": "Pixel 10 Pro XL Battery level",
+          "cSharpName": "Pixel10ProXlBatteryLevel"
+        },
+        {
+          "id": "sensor.pixel_8_pro_battery_level",
+          "friendlyName": "Pixel 8 Pro Battery level",
+          "cSharpName": "Pixel8ProBatteryLevel"
+        },
+        {
+          "id": "sensor.refrigerator_energy",
+          "friendlyName": "Refrigerator Energy",
+          "cSharpName": "RefrigeratorEnergy"
+        },
+        {
+          "id": "sensor.refrigerator_energy_difference",
+          "friendlyName": "Refrigerator Energy difference",
+          "cSharpName": "RefrigeratorEnergyDifference"
+        },
+        {
+          "id": "sensor.refrigerator_energy_saved",
+          "friendlyName": "Refrigerator Energy saved",
+          "cSharpName": "RefrigeratorEnergySaved"
+        },
+        {
+          "id": "sensor.refrigerator_freezer_temperature",
+          "friendlyName": "Refrigerator Freezer temperature",
+          "cSharpName": "RefrigeratorFreezerTemperature"
+        },
+        {
+          "id": "sensor.refrigerator_fridge_temperature",
+          "friendlyName": "Refrigerator Fridge temperature",
+          "cSharpName": "RefrigeratorFridgeTemperature"
+        },
+        {
+          "id": "sensor.refrigerator_power",
+          "friendlyName": "Refrigerator Power",
+          "cSharpName": "RefrigeratorPower"
+        },
+        {
+          "id": "sensor.refrigerator_power_energy",
+          "friendlyName": "Refrigerator Power energy",
+          "cSharpName": "RefrigeratorPowerEnergy"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_jours_deja_places_blanc",
+          "friendlyName": "RTE Tempo Cycle Jours d\u00E9j\u00E0 plac\u00E9s Blanc",
+          "cSharpName": "RteTempoCycleJoursDejaPlacesBlanc"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_jours_deja_places_bleu",
+          "friendlyName": "RTE Tempo Cycle Jours d\u00E9j\u00E0 plac\u00E9s Bleu",
+          "cSharpName": "RteTempoCycleJoursDejaPlacesBleu"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_jours_deja_places_rouge",
+          "friendlyName": "RTE Tempo Cycle Jours d\u00E9j\u00E0 plac\u00E9s Rouge",
+          "cSharpName": "RteTempoCycleJoursDejaPlacesRouge"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_jours_restants_blanc",
+          "friendlyName": "RTE Tempo Cycle Jours restants Blanc",
+          "cSharpName": "RteTempoCycleJoursRestantsBlanc"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_jours_restants_bleu",
+          "friendlyName": "RTE Tempo Cycle Jours restants Bleu",
+          "cSharpName": "RteTempoCycleJoursRestantsBleu"
+        },
+        {
+          "id": "sensor.rte_tempo_cycle_jours_restants_rouge",
+          "friendlyName": "RTE Tempo Cycle Jours restants Rouge",
+          "cSharpName": "RteTempoCycleJoursRestantsRouge"
+        },
+        {
+          "id": "sensor.screen_left_apparent_current",
+          "friendlyName": "Screen - Left Apparent current",
+          "cSharpName": "ScreenLeftApparentCurrent"
+        },
+        {
+          "id": "sensor.screen_left_apparent_power",
+          "friendlyName": "Screen - Left Apparent power",
+          "cSharpName": "ScreenLeftApparentPower"
+        },
+        {
+          "id": "sensor.screen_left_current",
+          "friendlyName": "Screen - Left Active current",
+          "cSharpName": "ScreenLeftCurrent"
+        },
+        {
+          "id": "sensor.screen_left_effective_current",
+          "friendlyName": "Screen - Left Effective current",
+          "cSharpName": "ScreenLeftEffectiveCurrent"
+        },
+        {
+          "id": "sensor.screen_left_effective_voltage",
+          "friendlyName": "Screen - Left Effective voltage",
+          "cSharpName": "ScreenLeftEffectiveVoltage"
+        },
+        {
+          "id": "sensor.screen_left_energy",
+          "friendlyName": "Screen - Left Energy",
+          "cSharpName": "ScreenLeftEnergy"
+        },
+        {
+          "id": "sensor.screen_left_power",
+          "friendlyName": "Screen - Left Power",
+          "cSharpName": "ScreenLeftPower"
+        },
+        {
+          "id": "sensor.screen_left_reactive_current",
+          "friendlyName": "Screen - Left Reactive current",
+          "cSharpName": "ScreenLeftReactiveCurrent"
+        },
+        {
+          "id": "sensor.screen_left_reactive_power",
+          "friendlyName": "Screen - Left Reactive power",
+          "cSharpName": "ScreenLeftReactivePower"
+        },
+        {
+          "id": "sensor.screen_left_voltage",
+          "friendlyName": "Screen - Left Voltage",
+          "cSharpName": "ScreenLeftVoltage"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_consumption",
+          "friendlyName": "Office - Screen left Consumption",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Consumption"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_current",
+          "friendlyName": "Office - Screen left Current",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Current"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_energy",
+          "friendlyName": "Office - Screen left Energy",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Energy"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_power",
+          "friendlyName": "Office - Screen left Power",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Power"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_signal_strength",
+          "friendlyName": "Office - Screen left Signal strength",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074SignalStrength"
+        },
+        {
+          "id": "sensor.smart_switch_2309263415624251081348e1e9dc0074_voltage",
+          "friendlyName": "Office - Screen left Voltage",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Voltage"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_consumption",
+          "friendlyName": "Office - Desk Consumption",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfConsumption"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_consumption_cost",
+          "friendlyName": "sensor Cost",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfConsumptionCost"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_current",
+          "friendlyName": "Office - Desk Current",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfCurrent"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_energy",
+          "friendlyName": "Office - Desk Energy",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfEnergy"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_power",
+          "friendlyName": "Office - Desk Power",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfPower"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_signal_strength",
+          "friendlyName": "Office - Desk Signal strength",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfSignalStrength"
+        },
+        {
+          "id": "sensor.smart_switch_2309264007244851081348e1e9dbf4df_voltage",
+          "friendlyName": "Office - Desk Voltage",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfVoltage"
+        },
+        {
+          "id": "sensor.studio_code_server_cpu_percent",
+          "friendlyName": "Studio Code Server CPU percent",
+          "cSharpName": "StudioCodeServerCpuPercent"
+        },
+        {
+          "id": "sensor.studio_code_server_memory_percent",
+          "friendlyName": "Studio Code Server Memory percent",
+          "cSharpName": "StudioCodeServerMemoryPercent"
+        },
+        {
+          "id": "sensor.washer_energy",
+          "friendlyName": "Washer Energy",
+          "cSharpName": "WasherEnergy"
+        },
+        {
+          "id": "sensor.washer_energy_difference",
+          "friendlyName": "Washer Energy difference",
+          "cSharpName": "WasherEnergyDifference"
+        },
+        {
+          "id": "sensor.washer_energy_saved",
+          "friendlyName": "Washer Energy saved",
+          "cSharpName": "WasherEnergySaved"
+        },
+        {
+          "id": "sensor.washer_power",
+          "friendlyName": "Washer Power",
+          "cSharpName": "WasherPower"
+        },
+        {
+          "id": "sensor.washer_power_energy",
+          "friendlyName": "Washer Power energy",
+          "cSharpName": "WasherPowerEnergy"
+        },
+        {
+          "id": "sensor.washer_water_consumption",
+          "friendlyName": "Washer Water consumption",
+          "cSharpName": "WasherWaterConsumption"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "state_class",
+          "cSharpName": "StateClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "unit_of_measurement",
+          "cSharpName": "UnitOfMeasurement",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "country_code",
+          "cSharpName": "CountryCode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "last_reset",
+          "cSharpName": "LastReset",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "offset",
+          "cSharpName": "Offset",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "reset_ts",
+          "cSharpName": "ResetTs",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "power_consumption_start",
+          "cSharpName": "PowerConsumptionStart",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "power_consumption_end",
+          "cSharpName": "PowerConsumptionEnd",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "siren",
+      "entities": [
+        {
+          "id": "siren.cam_chamber_2_siren",
+          "friendlyName": "Cam - Chamber 2 Siren",
+          "cSharpName": "CamChamber2Siren"
+        },
+        {
+          "id": "siren.cam_chamber_siren",
+          "friendlyName": "Cam - Chamber Siren",
+          "cSharpName": "CamChamberSiren"
+        },
+        {
+          "id": "siren.cam_corridor_siren",
+          "friendlyName": "Cam - Corridor Siren",
+          "cSharpName": "CamCorridorSiren"
+        },
+        {
+          "id": "siren.cam_entry_siren",
+          "friendlyName": "Cam - Entry Siren",
+          "cSharpName": "CamEntrySiren"
+        },
+        {
+          "id": "siren.cam_kitchen_siren",
+          "friendlyName": "Cam - Kitchen Siren",
+          "cSharpName": "CamKitchenSiren"
+        },
+        {
+          "id": "siren.cam_office_siren",
+          "friendlyName": "Cam - Office Siren",
+          "cSharpName": "CamOfficeSiren"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "sun",
+      "entities": [
+        {
+          "id": "sun.sun",
+          "friendlyName": "Sun",
+          "cSharpName": "Sun"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "next_dawn",
+          "cSharpName": "NextDawn",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_dusk",
+          "cSharpName": "NextDusk",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_midnight",
+          "cSharpName": "NextMidnight",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_noon",
+          "cSharpName": "NextNoon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_rising",
+          "cSharpName": "NextRising",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_setting",
+          "cSharpName": "NextSetting",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "elevation",
+          "cSharpName": "Elevation",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "azimuth",
+          "cSharpName": "Azimuth",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "rising",
+          "cSharpName": "Rising",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "switch",
+      "entities": [
+        {
+          "id": "switch.automation_coming_home",
+          "friendlyName": "Hue Bridge Automation: Coming home",
+          "cSharpName": "AutomationComingHome"
+        },
+        {
+          "id": "switch.automation_leaving_home",
+          "friendlyName": "Hue Bridge Automation: Leaving home",
+          "cSharpName": "AutomationLeavingHome"
+        },
+        {
+          "id": "switch.automation_wake_up",
+          "friendlyName": "Hue Bridge Automation: Wake up",
+          "cSharpName": "AutomationWakeUp"
+        },
+        {
+          "id": "switch.cam_chamber_2_email_on_event",
+          "friendlyName": "Cam - Chamber 2 Email on event",
+          "cSharpName": "CamChamber2EmailOnEvent"
+        },
+        {
+          "id": "switch.cam_chamber_2_ftp_upload",
+          "friendlyName": "Cam - Chamber 2 FTP upload",
+          "cSharpName": "CamChamber2FtpUpload"
+        },
+        {
+          "id": "switch.cam_chamber_2_infrared_lights_in_night_mode",
+          "friendlyName": "Cam - Chamber 2 Infrared lights in night mode",
+          "cSharpName": "CamChamber2InfraredLightsInNightMode"
+        },
+        {
+          "id": "switch.cam_chamber_2_push_notifications",
+          "friendlyName": "Cam - Chamber 2 Push notifications",
+          "cSharpName": "CamChamber2PushNotifications"
+        },
+        {
+          "id": "switch.cam_chamber_2_record",
+          "friendlyName": "Cam - Chamber 2 Record",
+          "cSharpName": "CamChamber2Record"
+        },
+        {
+          "id": "switch.cam_chamber_2_record_audio",
+          "friendlyName": "Cam - Chamber 2 Record audio",
+          "cSharpName": "CamChamber2RecordAudio"
+        },
+        {
+          "id": "switch.cam_chamber_2_siren_on_event",
+          "friendlyName": "Cam - Chamber 2 Siren on event",
+          "cSharpName": "CamChamber2SirenOnEvent"
+        },
+        {
+          "id": "switch.cam_chamber_email_on_event",
+          "friendlyName": "Cam - Chamber Email on event",
+          "cSharpName": "CamChamberEmailOnEvent"
+        },
+        {
+          "id": "switch.cam_chamber_ftp_upload",
+          "friendlyName": "Cam - Chamber FTP upload",
+          "cSharpName": "CamChamberFtpUpload"
+        },
+        {
+          "id": "switch.cam_chamber_infrared_lights_in_night_mode",
+          "friendlyName": "Cam - Chamber Infrared lights in night mode",
+          "cSharpName": "CamChamberInfraredLightsInNightMode"
+        },
+        {
+          "id": "switch.cam_chamber_push_notifications",
+          "friendlyName": "Cam - Chamber Push notifications",
+          "cSharpName": "CamChamberPushNotifications"
+        },
+        {
+          "id": "switch.cam_chamber_record",
+          "friendlyName": "Cam - Chamber Record",
+          "cSharpName": "CamChamberRecord"
+        },
+        {
+          "id": "switch.cam_chamber_record_audio",
+          "friendlyName": "Cam - Chamber Record audio",
+          "cSharpName": "CamChamberRecordAudio"
+        },
+        {
+          "id": "switch.cam_chamber_siren_on_event",
+          "friendlyName": "Cam - Chamber Siren on event",
+          "cSharpName": "CamChamberSirenOnEvent"
+        },
+        {
+          "id": "switch.cam_corridor_email_on_event",
+          "friendlyName": "Cam - Corridor Email on event",
+          "cSharpName": "CamCorridorEmailOnEvent"
+        },
+        {
+          "id": "switch.cam_corridor_ftp_upload",
+          "friendlyName": "Cam - Corridor FTP upload",
+          "cSharpName": "CamCorridorFtpUpload"
+        },
+        {
+          "id": "switch.cam_corridor_infrared_lights_in_night_mode",
+          "friendlyName": "Cam - Corridor Infrared lights in night mode",
+          "cSharpName": "CamCorridorInfraredLightsInNightMode"
+        },
+        {
+          "id": "switch.cam_corridor_push_notifications",
+          "friendlyName": "Cam - Corridor Push notifications",
+          "cSharpName": "CamCorridorPushNotifications"
+        },
+        {
+          "id": "switch.cam_corridor_record",
+          "friendlyName": "Cam - Corridor Record",
+          "cSharpName": "CamCorridorRecord"
+        },
+        {
+          "id": "switch.cam_corridor_record_audio",
+          "friendlyName": "Cam - Corridor Record audio",
+          "cSharpName": "CamCorridorRecordAudio"
+        },
+        {
+          "id": "switch.cam_corridor_siren_on_event",
+          "friendlyName": "Cam - Corridor Siren on event",
+          "cSharpName": "CamCorridorSirenOnEvent"
+        },
+        {
+          "id": "switch.cam_entry_email_on_event",
+          "friendlyName": "Cam - Entry Email on event",
+          "cSharpName": "CamEntryEmailOnEvent"
+        },
+        {
+          "id": "switch.cam_entry_ftp_upload",
+          "friendlyName": "Cam - Entry FTP upload",
+          "cSharpName": "CamEntryFtpUpload"
+        },
+        {
+          "id": "switch.cam_entry_infrared_lights_in_night_mode",
+          "friendlyName": "Cam - Entry Infrared lights in night mode",
+          "cSharpName": "CamEntryInfraredLightsInNightMode"
+        },
+        {
+          "id": "switch.cam_entry_push_notifications",
+          "friendlyName": "Cam - Entry Push notifications",
+          "cSharpName": "CamEntryPushNotifications"
+        },
+        {
+          "id": "switch.cam_entry_record",
+          "friendlyName": "Cam - Entry Record",
+          "cSharpName": "CamEntryRecord"
+        },
+        {
+          "id": "switch.cam_entry_record_audio",
+          "friendlyName": "Cam - Entry Record audio",
+          "cSharpName": "CamEntryRecordAudio"
+        },
+        {
+          "id": "switch.cam_entry_siren_on_event",
+          "friendlyName": "Cam - Entry Siren on event",
+          "cSharpName": "CamEntrySirenOnEvent"
+        },
+        {
+          "id": "switch.cam_kitchen_email_on_event",
+          "friendlyName": "Cam - Kitchen Email on event",
+          "cSharpName": "CamKitchenEmailOnEvent"
+        },
+        {
+          "id": "switch.cam_kitchen_ftp_upload",
+          "friendlyName": "Cam - Kitchen FTP upload",
+          "cSharpName": "CamKitchenFtpUpload"
+        },
+        {
+          "id": "switch.cam_kitchen_infrared_lights_in_night_mode",
+          "friendlyName": "Cam - Kitchen Infrared lights in night mode",
+          "cSharpName": "CamKitchenInfraredLightsInNightMode"
+        },
+        {
+          "id": "switch.cam_kitchen_push_notifications",
+          "friendlyName": "Cam - Kitchen Push notifications",
+          "cSharpName": "CamKitchenPushNotifications"
+        },
+        {
+          "id": "switch.cam_kitchen_record",
+          "friendlyName": "Cam - Kitchen Record",
+          "cSharpName": "CamKitchenRecord"
+        },
+        {
+          "id": "switch.cam_kitchen_record_audio",
+          "friendlyName": "Cam - Kitchen Record audio",
+          "cSharpName": "CamKitchenRecordAudio"
+        },
+        {
+          "id": "switch.cam_kitchen_siren_on_event",
+          "friendlyName": "Cam - Kitchen Siren on event",
+          "cSharpName": "CamKitchenSirenOnEvent"
+        },
+        {
+          "id": "switch.cam_office_email_on_event",
+          "friendlyName": "Cam - Office Email on event",
+          "cSharpName": "CamOfficeEmailOnEvent"
+        },
+        {
+          "id": "switch.cam_office_ftp_upload",
+          "friendlyName": "Cam - Office FTP upload",
+          "cSharpName": "CamOfficeFtpUpload"
+        },
+        {
+          "id": "switch.cam_office_infrared_lights_in_night_mode",
+          "friendlyName": "Cam - Office Infrared lights in night mode",
+          "cSharpName": "CamOfficeInfraredLightsInNightMode"
+        },
+        {
+          "id": "switch.cam_office_push_notifications",
+          "friendlyName": "Cam - Office Push notifications",
+          "cSharpName": "CamOfficePushNotifications"
+        },
+        {
+          "id": "switch.cam_office_record",
+          "friendlyName": "Cam - Office Record",
+          "cSharpName": "CamOfficeRecord"
+        },
+        {
+          "id": "switch.cam_office_record_audio",
+          "friendlyName": "Cam - Office Record audio",
+          "cSharpName": "CamOfficeRecordAudio"
+        },
+        {
+          "id": "switch.cam_office_siren_on_event",
+          "friendlyName": "Cam - Office Siren on event",
+          "cSharpName": "CamOfficeSirenOnEvent"
+        },
+        {
+          "id": "switch.dishwasher_sanitize",
+          "friendlyName": "Dishwasher Sanitize",
+          "cSharpName": "DishwasherSanitize"
+        },
+        {
+          "id": "switch.dishwasher_speed_booster",
+          "friendlyName": "Dishwasher Speed booster",
+          "cSharpName": "DishwasherSpeedBooster"
+        },
+        {
+          "id": "switch.dryer_wrinkle_prevent",
+          "friendlyName": "Dryer Wrinkle prevent",
+          "cSharpName": "DryerWrinklePrevent"
+        },
+        {
+          "id": "switch.refrigerator_power_cool",
+          "friendlyName": "Refrigerator Power cool",
+          "cSharpName": "RefrigeratorPowerCool"
+        },
+        {
+          "id": "switch.refrigerator_power_freeze",
+          "friendlyName": "Refrigerator Power freeze",
+          "cSharpName": "RefrigeratorPowerFreeze"
+        },
+        {
+          "id": "switch.smart_plug_mini",
+          "friendlyName": "Screen - Left",
+          "cSharpName": "SmartPlugMini"
+        },
+        {
+          "id": "switch.smart_switch_2309263415624251081348e1e9dc0074_config_overtemp_enable",
+          "friendlyName": "Office - Screen left Config overtemp enable",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074ConfigOvertempEnable"
+        },
+        {
+          "id": "switch.smart_switch_2309263415624251081348e1e9dc0074_outlet",
+          "friendlyName": "Office - Screen left Outlet",
+          "cSharpName": "SmartSwitch2309263415624251081348e1e9dc0074Outlet"
+        },
+        {
+          "id": "switch.smart_switch_2309264007244851081348e1e9dbf4df_config_overtemp_enable",
+          "friendlyName": "Office - Desk Config overtemp enable",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfConfigOvertempEnable"
+        },
+        {
+          "id": "switch.smart_switch_2309264007244851081348e1e9dbf4df_outlet",
+          "friendlyName": "Office - Desk Outlet",
+          "cSharpName": "SmartSwitch2309264007244851081348e1e9dbf4dfOutlet"
+        },
+        {
+          "id": "switch.washer_bubble_soak",
+          "friendlyName": "Washer Bubble Soak",
+          "cSharpName": "WasherBubbleSoak"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "tts",
+      "entities": [
+        {
+          "id": "tts.google_translate_en_com",
+          "friendlyName": "Google Translate en com",
+          "cSharpName": "GoogleTranslateEnCom"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "update",
+      "entities": [
+        {
+          "id": "update.cam_chamber_2_firmware",
+          "friendlyName": "Cam - Chamber 2 Firmware",
+          "cSharpName": "CamChamber2Firmware"
+        },
+        {
+          "id": "update.cam_chamber_firmware",
+          "friendlyName": "Cam - Chamber Firmware",
+          "cSharpName": "CamChamberFirmware"
+        },
+        {
+          "id": "update.cam_corridor_firmware",
+          "friendlyName": "Cam - Corridor Firmware",
+          "cSharpName": "CamCorridorFirmware"
+        },
+        {
+          "id": "update.cam_entry_firmware",
+          "friendlyName": "Cam - Entry Firmware",
+          "cSharpName": "CamEntryFirmware"
+        },
+        {
+          "id": "update.cam_kitchen_firmware",
+          "friendlyName": "Cam - Kitchen Firmware",
+          "cSharpName": "CamKitchenFirmware"
+        },
+        {
+          "id": "update.cam_office_firmware",
+          "friendlyName": "Cam - Office Firmware",
+          "cSharpName": "CamOfficeFirmware"
+        },
+        {
+          "id": "update.daikin_onecta_update",
+          "friendlyName": "Daikin Onecta Update",
+          "cSharpName": "DaikinOnectaUpdate"
+        },
+        {
+          "id": "update.dreame_vacuum_update",
+          "friendlyName": "Dreame Vacuum Update",
+          "cSharpName": "DreameVacuumUpdate"
+        },
+        {
+          "id": "update.get_hacs_update",
+          "friendlyName": "Get HACS Update",
+          "cSharpName": "GetHacsUpdate"
+        },
+        {
+          "id": "update.hacs_update",
+          "friendlyName": "HACS Update",
+          "cSharpName": "HacsUpdate"
+        },
+        {
+          "id": "update.home_assistant_core_update",
+          "friendlyName": "Home Assistant Core Update",
+          "cSharpName": "HomeAssistantCoreUpdate"
+        },
+        {
+          "id": "update.home_assistant_operating_system_update",
+          "friendlyName": "Home Assistant Operating System Update",
+          "cSharpName": "HomeAssistantOperatingSystemUpdate"
+        },
+        {
+          "id": "update.home_assistant_supervisor_update",
+          "friendlyName": "Home Assistant Supervisor Update",
+          "cSharpName": "HomeAssistantSupervisorUpdate"
+        },
+        {
+          "id": "update.matter_server_update",
+          "friendlyName": "Matter Server Update",
+          "cSharpName": "MatterServerUpdate"
+        },
+        {
+          "id": "update.meross_lan_update",
+          "friendlyName": "Meross LAN Update",
+          "cSharpName": "MerossLanUpdate"
+        },
+        {
+          "id": "update.mosquitto_broker_update",
+          "friendlyName": "Mosquitto broker Update",
+          "cSharpName": "MosquittoBrokerUpdate"
+        },
+        {
+          "id": "update.rte_tempo_update",
+          "friendlyName": "RTE Tempo Update",
+          "cSharpName": "RteTempoUpdate"
+        },
+        {
+          "id": "update.studio_code_server_update",
+          "friendlyName": "Studio Code Server Update",
+          "cSharpName": "StudioCodeServerUpdate"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "auto_update",
+          "cSharpName": "AutoUpdate",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "display_precision",
+          "cSharpName": "DisplayPrecision",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "installed_version",
+          "cSharpName": "InstalledVersion",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "in_progress",
+          "cSharpName": "InProgress",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "latest_version",
+          "cSharpName": "LatestVersion",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "release_summary",
+          "cSharpName": "ReleaseSummary",
+          "clrType": null
+        },
+        {
+          "jsonName": "release_url",
+          "cSharpName": "ReleaseUrl",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "skipped_version",
+          "cSharpName": "SkippedVersion",
+          "clrType": null
+        },
+        {
+          "jsonName": "title",
+          "cSharpName": "Title",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "update_percentage",
+          "cSharpName": "UpdatePercentage",
+          "clrType": null
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "weather",
+      "entities": [
+        {
+          "id": "weather.forecast_home",
+          "friendlyName": "Forecast Home",
+          "cSharpName": "ForecastHome"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "dew_point",
+          "cSharpName": "DewPoint",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "temperature_unit",
+          "cSharpName": "TemperatureUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "humidity",
+          "cSharpName": "Humidity",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "cloud_coverage",
+          "cSharpName": "CloudCoverage",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "uv_index",
+          "cSharpName": "UvIndex",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pressure",
+          "cSharpName": "Pressure",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pressure_unit",
+          "cSharpName": "PressureUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "wind_bearing",
+          "cSharpName": "WindBearing",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_speed",
+          "cSharpName": "WindSpeed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_speed_unit",
+          "cSharpName": "WindSpeedUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "visibility_unit",
+          "cSharpName": "VisibilityUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "precipitation_unit",
+          "cSharpName": "PrecipitationUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "zone",
+      "entities": [
+        {
+          "id": "zone.home",
+          "friendlyName": "Home",
+          "cSharpName": "Home"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "radius",
+          "cSharpName": "Radius",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "passive",
+          "cSharpName": "Passive",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "persons",
+          "cSharpName": "Persons",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    }
+  ]
+}

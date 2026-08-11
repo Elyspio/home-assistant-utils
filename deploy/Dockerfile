@@ -1,19 +1,16 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS build
+WORKDIR /src
+
+COPY app/CSharpHomeAssistant.csproj app/
+RUN dotnet restore app/CSharpHomeAssistant.csproj
+
+COPY app/ app/
+RUN dotnet publish app/CSharpHomeAssistant.csproj -c Release --no-restore -o /out
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS final
 WORKDIR /app
-
-COPY app/CSharpHomeAssistant.sln ./
-COPY app/CSharpHomeAssistant.csproj ./
-
-RUN dotnet restore
-
-
-COPY app ./
-RUN dotnet publish -c Release -o out
-
-
-# Build runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS final
-WORKDIR /app
-RUN mkdir -p /app/Apps
-COPY --from=build /app/out . 
+ENV ASPNETCORE_HTTP_PORTS=8080
+EXPOSE 8080
+COPY --from=build /out/ .
+USER $APP_UID
 ENTRYPOINT ["dotnet", "CSharpHomeAssistant.dll"]
