@@ -1,9 +1,9 @@
 using CSharpHomeAssistant.Apps.PresenceLighting;
-using FluentAssertions;
+using Shouldly;
+using Xunit;
 
 namespace CSharpHomeAssistant.Tests;
 
-[TestClass]
 public sealed class FrigateOccupancyParserTests
 {
     private static readonly RoomOptions Office = new()
@@ -13,7 +13,7 @@ public sealed class FrigateOccupancyParserTests
         LightEntityId = "light.office"
     };
 
-    [TestMethod]
+    [Fact]
     public void TryParseCount_accepts_numeric_person_counts()
     {
         // Act
@@ -24,11 +24,11 @@ public sealed class FrigateOccupancyParserTests
             out var update);
 
         // Assert
-        parsed.Should().BeTrue();
-        update.Should().Be(new RoomOccupancyUpdate("office", 2));
+        parsed.ShouldBeTrue();
+        update.ShouldBe(new RoomOccupancyUpdate("office", 2));
     }
 
-    [TestMethod]
+    [Fact]
     public void TryParseCount_rejects_active_person_topics()
     {
         // Act
@@ -39,10 +39,10 @@ public sealed class FrigateOccupancyParserTests
             out _);
 
         // Assert
-        parsed.Should().BeFalse();
+        parsed.ShouldBeFalse();
     }
 
-    [TestMethod]
+    [Fact]
     public void TryParseCount_uses_the_configured_topic_prefix()
     {
         var parsed = FrigateOccupancyParser.TryParseCount(
@@ -52,11 +52,11 @@ public sealed class FrigateOccupancyParserTests
             out var update,
             "nvr");
 
-        parsed.Should().BeTrue();
-        update.Count.Should().Be(1);
+        parsed.ShouldBeTrue();
+        update.Count.ShouldBe(1);
     }
 
-    [TestMethod]
+    [Fact]
     public void TryParseCameraActivity_counts_stationary_people()
     {
         // Arrange
@@ -75,11 +75,11 @@ public sealed class FrigateOccupancyParserTests
         var parsed = FrigateOccupancyParser.TryParseCameraActivity(payload, [Office], out var updates);
 
         // Assert
-        parsed.Should().BeTrue();
-        updates.Should().ContainSingle().Which.Should().Be(new RoomOccupancyUpdate("office", 2));
+        parsed.ShouldBeTrue();
+        updates.ShouldHaveSingleItem().ShouldBe(new RoomOccupancyUpdate("office", 2));
     }
 
-    [TestMethod]
+    [Fact]
     public void TryParseCameraActivity_honors_optional_room_zone()
     {
         // Arrange
@@ -105,18 +105,18 @@ public sealed class FrigateOccupancyParserTests
         var parsed = FrigateOccupancyParser.TryParseCameraActivity(payload, [zonedOffice], out var updates);
 
         // Assert
-        parsed.Should().BeTrue();
-        updates.Should().ContainSingle().Which.Should().Be(new RoomOccupancyUpdate("office", 1));
+        parsed.ShouldBeTrue();
+        updates.ShouldHaveSingleItem().ShouldBe(new RoomOccupancyUpdate("office", 1));
     }
 
-    [TestMethod]
+    [Fact]
     public void TryParseCameraActivity_rejects_malformed_json()
     {
         // Act
         var parsed = FrigateOccupancyParser.TryParseCameraActivity("not-json", [Office], out var updates);
 
         // Assert
-        parsed.Should().BeFalse();
-        updates.Should().BeEmpty();
+        parsed.ShouldBeFalse();
+        updates.ShouldBeEmpty();
     }
 }
