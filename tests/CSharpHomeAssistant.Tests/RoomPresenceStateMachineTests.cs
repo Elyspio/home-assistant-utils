@@ -1,14 +1,14 @@
 using CSharpHomeAssistant.Apps.PresenceLighting;
-using FluentAssertions;
+using Shouldly;
+using Xunit;
 
 namespace CSharpHomeAssistant.Tests;
 
-[TestClass]
 public sealed class RoomPresenceStateMachineTests
 {
     private static readonly DateTimeOffset Now = DateTimeOffset.Parse("2026-08-11T20:00:00+02:00");
 
-    [TestMethod]
+    [Fact]
     public void Occupancy_turns_light_on_and_confirmed_vacancy_turns_it_off_after_delay()
     {
         // Arrange
@@ -22,14 +22,14 @@ public sealed class RoomPresenceStateMachineTests
         var afterDeadline = machine.Advance(Now.AddMinutes(6));
 
         // Assert
-        entered.Kind.Should().Be(RoomActionKind.TurnOn);
-        left.Kind.Should().Be(RoomActionKind.None);
-        beforeDeadline.Kind.Should().Be(RoomActionKind.None);
-        afterDeadline.Kind.Should().Be(RoomActionKind.TurnOff);
-        machine.Mode.Should().Be(RoomAutomationMode.Vacant);
+        entered.Kind.ShouldBe(RoomActionKind.TurnOn);
+        left.Kind.ShouldBe(RoomActionKind.None);
+        beforeDeadline.Kind.ShouldBe(RoomActionKind.None);
+        afterDeadline.Kind.ShouldBe(RoomActionKind.TurnOff);
+        machine.Mode.ShouldBe(RoomAutomationMode.Vacant);
     }
 
-    [TestMethod]
+    [Fact]
     public void Reentry_cancels_pending_vacancy()
     {
         // Arrange
@@ -42,12 +42,12 @@ public sealed class RoomPresenceStateMachineTests
         var afterOldDeadline = machine.Advance(Now.AddMinutes(1));
 
         // Assert
-        reentered.Kind.Should().Be(RoomActionKind.TurnOn);
-        afterOldDeadline.Kind.Should().Be(RoomActionKind.None);
-        machine.Mode.Should().Be(RoomAutomationMode.Automatic);
+        reentered.Kind.ShouldBe(RoomActionKind.TurnOn);
+        afterOldDeadline.Kind.ShouldBe(RoomActionKind.None);
+        machine.Mode.ShouldBe(RoomAutomationMode.Automatic);
     }
 
-    [TestMethod]
+    [Fact]
     public void Frigate_outage_never_turns_light_off()
     {
         // Arrange
@@ -60,11 +60,11 @@ public sealed class RoomPresenceStateMachineTests
         var decision = machine.Advance(Now.AddHours(1));
 
         // Assert
-        decision.Kind.Should().Be(RoomActionKind.None);
-        machine.Mode.Should().Be(RoomAutomationMode.Unavailable);
+        decision.Kind.ShouldBe(RoomActionKind.None);
+        machine.Mode.ShouldBe(RoomAutomationMode.Unavailable);
     }
 
-    [TestMethod]
+    [Fact]
     public void Manual_override_resumes_automatic_profile_after_one_hour()
     {
         // Arrange
@@ -77,12 +77,12 @@ public sealed class RoomPresenceStateMachineTests
         var atExpiry = machine.Advance(Now.AddHours(1));
 
         // Assert
-        beforeExpiry.Kind.Should().Be(RoomActionKind.None);
-        atExpiry.Kind.Should().Be(RoomActionKind.ApplyProfile);
-        machine.Mode.Should().Be(RoomAutomationMode.Automatic);
+        beforeExpiry.Kind.ShouldBe(RoomActionKind.None);
+        atExpiry.Kind.ShouldBe(RoomActionKind.ApplyProfile);
+        machine.Mode.ShouldBe(RoomAutomationMode.Automatic);
     }
 
-    [TestMethod]
+    [Fact]
     public void Bedroom_manual_off_at_night_stays_latched_until_vacancy_is_confirmed()
     {
         // Arrange
@@ -97,13 +97,13 @@ public sealed class RoomPresenceStateMachineTests
         var nextEntry = machine.UpdateOccupancy(1, Now.AddHours(3));
 
         // Assert
-        afterOneHour.Kind.Should().Be(RoomActionKind.None);
-        confirmedVacant.Kind.Should().Be(RoomActionKind.None);
-        nextEntry.Kind.Should().Be(RoomActionKind.TurnOn);
-        machine.Mode.Should().Be(RoomAutomationMode.Automatic);
+        afterOneHour.Kind.ShouldBe(RoomActionKind.None);
+        confirmedVacant.Kind.ShouldBe(RoomActionKind.None);
+        nextEntry.Kind.ShouldBe(RoomActionKind.TurnOn);
+        machine.Mode.ShouldBe(RoomAutomationMode.Automatic);
     }
 
-    [TestMethod]
+    [Fact]
     public void Retained_override_is_restored_only_while_it_is_still_valid()
     {
         var active = CreateMachine(TimeSpan.FromMinutes(5));
@@ -112,12 +112,12 @@ public sealed class RoomPresenceStateMachineTests
         active.RestoreOverride(Now.AddMinutes(5), manualOffLatched: false, Now);
         expired.RestoreOverride(Now.AddMinutes(-1), manualOffLatched: false, Now);
 
-        active.Mode.Should().Be(RoomAutomationMode.ManualOverride);
-        active.OverrideUntil.Should().Be(Now.AddMinutes(5));
-        expired.OverrideUntil.Should().BeNull();
+        active.Mode.ShouldBe(RoomAutomationMode.ManualOverride);
+        active.OverrideUntil.ShouldBe(Now.AddMinutes(5));
+        expired.OverrideUntil.ShouldBeNull();
     }
 
-    [TestMethod]
+    [Fact]
     public void Retained_bedroom_latch_clears_after_synchronized_vacancy_delay()
     {
         var machine = CreateMachine(TimeSpan.FromMinutes(5), isBedroom: true);
@@ -126,12 +126,12 @@ public sealed class RoomPresenceStateMachineTests
         machine.SynchronizeOccupancy(0, Now);
         var decision = machine.Advance(Now.AddMinutes(5));
 
-        decision.Kind.Should().Be(RoomActionKind.None);
-        machine.ManualOffLatched.Should().BeFalse();
-        machine.Mode.Should().Be(RoomAutomationMode.Vacant);
+        decision.Kind.ShouldBe(RoomActionKind.None);
+        machine.ManualOffLatched.ShouldBeFalse();
+        machine.Mode.ShouldBe(RoomAutomationMode.Vacant);
     }
 
-    [TestMethod]
+    [Fact]
     public void Manual_light_turned_on_in_a_vacant_room_turns_off_when_override_expires()
     {
         var machine = CreateMachine(TimeSpan.FromMinutes(5));
@@ -140,8 +140,8 @@ public sealed class RoomPresenceStateMachineTests
         machine.RegisterManualChange(ManualLightChange.AttributesChanged, Now, isNight: false);
         var decision = machine.Advance(Now.AddHours(1));
 
-        decision.Kind.Should().Be(RoomActionKind.TurnOff);
-        machine.Mode.Should().Be(RoomAutomationMode.Vacant);
+        decision.Kind.ShouldBe(RoomActionKind.TurnOff);
+        machine.Mode.ShouldBe(RoomAutomationMode.Vacant);
     }
 
     private static RoomPresenceStateMachine CreateMachine(TimeSpan vacancyDelay, bool isBedroom = false) =>

@@ -4,7 +4,6 @@ using CSharpHomeAssistant.Generated;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MQTTnet;
-using MQTTnet.Client;
 using MQTTnet.Protocol;
 using NetDaemon.Client;
 using NetDaemon.AppModel;
@@ -71,7 +70,7 @@ public sealed class PresenceLightingApp : IAsyncInitializable, IAsyncDisposable
         _lights = new HomeAssistantLightGateway(haContext, timeProvider, _options.Rooms);
         _lights.ExternalChange += OnExternalLightChange;
 
-        _mqtt = new MqttFactory().CreateMqttClient();
+        _mqtt = new MqttClientFactory().CreateMqttClient();
         _mqtt.ApplicationMessageReceivedAsync += OnMessageReceivedAsync;
         _mqtt.DisconnectedAsync += OnDisconnectedAsync;
     }
@@ -248,7 +247,7 @@ public sealed class PresenceLightingApp : IAsyncInitializable, IAsyncDisposable
         }
 
         var topic = eventArgs.ApplicationMessage.Topic;
-        var payload = Encoding.UTF8.GetString(eventArgs.ApplicationMessage.PayloadSegment).Trim();
+        var payload = eventArgs.ApplicationMessage.ConvertPayloadToString().Trim();
         await _gate.WaitAsync(_shutdown.Token).ConfigureAwait(false);
         try
         {
