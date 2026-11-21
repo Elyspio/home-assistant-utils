@@ -1,9 +1,9 @@
 using CSharpHomeAssistant.Apps.PresenceLighting;
-using FluentAssertions;
+using Shouldly;
+using Xunit;
 
 namespace CSharpHomeAssistant.Tests;
 
-[TestClass]
 public sealed class LightingProfileCalculatorTests
 {
     private static readonly CircadianScheduleOptions Schedule = new()
@@ -20,12 +20,12 @@ public sealed class LightingProfileCalculatorTests
 
     private readonly LightingProfileCalculator _calculator = new(Schedule);
 
-    [TestMethod]
-    [DataRow("2026-08-11T07:00:00+02:00", 2200, 40)]
-    [DataRow("2026-08-11T08:00:00+02:00", 3100, 70)]
-    [DataRow("2026-08-11T12:00:00+02:00", 4000, 100)]
-    [DataRow("2026-08-11T20:45:00+02:00", 3100, 70)]
-    [DataRow("2026-08-11T23:00:00+02:00", 2200, 40)]
+    [Theory]
+    [InlineData("2026-08-11T07:00:00+02:00", 2200, 40)]
+    [InlineData("2026-08-11T08:00:00+02:00", 3100, 70)]
+    [InlineData("2026-08-11T12:00:00+02:00", 4000, 100)]
+    [InlineData("2026-08-11T20:45:00+02:00", 3100, 70)]
+    [InlineData("2026-08-11T23:00:00+02:00", 2200, 40)]
     public void Calculate_returns_expected_target_across_the_day(
         string currentTime,
         int expectedKelvin,
@@ -39,10 +39,10 @@ public sealed class LightingProfileCalculatorTests
         var target = _calculator.Calculate(now, sunset, 40);
 
         // Assert
-        target.Should().Be(new LightingTarget(expectedKelvin, expectedBrightness));
+        target.ShouldBe(new LightingTarget(expectedKelvin, expectedBrightness));
     }
 
-    [TestMethod]
+    [Fact]
     public void Calculate_uses_fixed_evening_fallback_when_sunset_is_unavailable()
     {
         // Arrange
@@ -52,6 +52,6 @@ public sealed class LightingProfileCalculatorTests
         var target = _calculator.Calculate(now, sunset: null, nightBrightnessPercent: 40);
 
         // Assert
-        target.Should().Be(new LightingTarget(3100, 70));
+        target.ShouldBe(new LightingTarget(3100, 70));
     }
 }
